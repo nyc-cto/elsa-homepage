@@ -20,13 +20,9 @@ export default function Contact(props) {
         <Paragraph className="usa-intro">
           {t('feedback')}
 
-          <br/><br/><b>NYC Unity Project</b>
-          <br/><a href="http://nyc.gov/unityproject">http://nyc.gov/unityproject</a>
-          <br/>Twitter: <a href="https://twitter.com/NYCUnityProject">@NYCUnityProject</a>
-
-          <br/><br/><b>NYC Center for Youth Employment</b>
-          <br/><a href="http://nyc.gov/cye">http://nyc.gov/cye</a>
-          <br/>Twitter: <a href="https://twitter.com/NYCCYE">@NYCCYE</a>
+          <br/><br/><b>NYC Mayor's Office of the Chief Technology Officer</b>
+          <br/><a href="http://nyc.gov/cto">http://nyc.gov/cto</a>
+          <br/>Twitter: <a href="https://twitter.com/nyc_cto">@nyc_cto</a>
         </Paragraph>
       </BlueSection>
     </PageTemplate>
