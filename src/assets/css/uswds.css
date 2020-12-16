@@ -66,7 +66,7 @@
 }
 
 .bg-primary-darker {
-  background-color: black !important;
+  background-color: black;
 }
 
 .text-unity-blue {
@@ -10834,7 +10834,7 @@ example:
 }
 */
 .bg-primary {
-  background-color: #005ea2;
+  background-color: black;
 }
 
 .hover\:bg-primary:hover {
@@ -10891,7 +10891,7 @@ example:
 }
 */
 .bg-primary-darker {
-  background-color: #64307E;
+  background-color: black;
 }
 
 .hover\:bg-primary-darker:hover {
