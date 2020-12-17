@@ -17,8 +17,8 @@ export default function Home(props) {
   const {t} = useTranslation();
 
   return (
-    <PageTemplate page="Home" mainBg="bg-unity-yellow"
-      hero={HomeImg} returnBg="bg-unity-blue">
+    <PageTemplate page="Home" mainBg="bg-white"
+      hero={HomeImg} returnBg="bg-white">
       <YellowSection>
         <div className="tablet:grid-col-4">
           <Heading className="margin-top-0 tablet:margin-bottom-0">

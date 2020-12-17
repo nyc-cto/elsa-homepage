@@ -11,8 +11,8 @@ export default function AgencyGrid(props) {
   const {t} = useTranslation();
 
   return (
-    <div className="usa-footer__secondary-section bg-unity-purple text-white">
-      <div className="grid-container bg-unity-purple text-white">
+    <div className="usa-footer__secondary-section bg-base-dark text-white">
+      <div className="grid-container bg-base-dark text-white">
         <div className="grid-row grid-gap">
           <div className="agency-grid footer-text grid-row grid-gap">
             <a className="mobile-lg:grid-col-4 desktop:grid-col-3"

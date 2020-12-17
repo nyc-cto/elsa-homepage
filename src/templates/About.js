@@ -32,8 +32,8 @@ export default function About(props) {
 
   return (
     <PageTemplate
-      page="About" mainBg="bg-unity-yellow" hero={AboutImg}
-      returnBg="bg-unity-yellow">
+      page="About" mainBg="bg-white" hero={AboutImg}
+      returnBg="bg-white">
       {yellowSections}
     </PageTemplate>
   );

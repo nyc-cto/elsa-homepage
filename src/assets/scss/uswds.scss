@@ -4,28 +4,29 @@ Adjusted color swatches
 
 ***/
 // Adjusted USWDS swatches
-$theme-color-primary-darker: #64307E;
-$theme-color-accent-cool: #E070A3;
+$theme-color-primary-darker: #042D36;
+$theme-color-accent-cool: #0BB7C2;
 
 // New USWDS swatches
 $unity-pink: #D93778;
 $unity-orange-adj: #E07616;
-$unity-blue-adj: #6ACDE8;
+$unity-blue-adj: #0BB7C2;
 $unity-orange-active: #D34200;
 $unity-yellow: #FAE64C;
 $unity-purple: #7E4E96;
 
 // Setting up the Barlow Condensed font 
 $theme-typeface-tokens: (
-  barlow-condensed: (
-    display-name: "BarlowCondensed",
+  public-sans: (
+    display-name: "PublicSans",
     cap-height: 364px
   )
 ) !default;
 
 @font-face {
-    font-family: BarlowCondensed;
-    src: url(../fonts/barlowcondensed/BarlowCondensed-Bold.ttf);
+    font-family: PublicSans;
+    font-weight: 800;
+    src: url(../fonts/public-sans/PublicSans-Bold.ttf);
 }
 
 @font-face {
@@ -35,15 +36,16 @@ $theme-typeface-tokens: (
 
 // $theme-font-type-cond-custom-src: $theme-font-barlow-condensed !default;
 
-// $theme-font-serif-custom-stack: BarlowCondensed;
-// $theme-font-sans-custom-stack: BarlowCondensed;
-$theme-font-type-serif: "barlow-condensed";
+$theme-font-type-serif: "public-sans";
 $theme-font-type-sans: "public-sans";
 
 .bg-white {
     background-color: white;
 }
 
+.bg-base-dark {
+    background-color: $theme-color-primary-darker !important;
+}
 .bg-unity-blue {
     background-color: white;
 }
@@ -65,32 +67,29 @@ $theme-font-type-sans: "public-sans";
 }
 
 .text-barlow-heading {
-    font-family: BarlowCondensed;
+    font-family: PublicSans;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 38px;
     letter-spacing: -0.015em;
-    text-transform: uppercase;
 }
 
 .text-barlow-title {
-    font-family: BarlowCondensed;
+    font-family: PublicSans;
     font-style: normal;
     font-weight: bold;
     font-size: 27px;
     line-height: 32px;
     letter-spacing: -0.015em;
-    text-transform: uppercase;
 }
 
 .text-barlow-logo {
-    font-family: BarlowCondensed;
+    font-family: PublicSans;
     font-style: normal; 
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-    text-transform: uppercase;
 }
 
 .text-primary-darker {
@@ -178,11 +177,12 @@ $theme-font-type-sans: "public-sans";
 }
 
 .usa-button {
-    background-color: $unity-pink !important;
+    background-color: white !important;
+    color: $theme-color-primary-darker!important;
 }
 
 .usa-button:hover {
-    background-color: $unity-orange-adj !important;
+    background-color: $theme-color-accent-cool !important;
 }
 
 .usa-button:active {

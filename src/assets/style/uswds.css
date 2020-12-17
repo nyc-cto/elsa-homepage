@@ -5,8 +5,9 @@ Adjusted color swatches
 
 ***/
 @font-face {
-  font-family: BarlowCondensed;
-  src: url(../fonts/barlowcondensed/BarlowCondensed-Bold.ttf);
+  font-family: PublicSans;
+  font-weight: 800;
+  src: url(../fonts/public-sans/PublicSans-Bold.ttf);
 }
 @font-face {
   font-family: PublicSans;
@@ -14,6 +15,10 @@ Adjusted color swatches
 }
 .bg-white {
   background-color: white;
+}
+
+.bg-base-dark {
+  background-color: #042D36 !important;
 }
 
 .bg-unity-blue {
@@ -29,7 +34,7 @@ Adjusted color swatches
 }
 
 .text-accent-cool {
-  color: #E070A3;
+  color: #0BB7C2;
 }
 
 .bg-unity-purple {
@@ -37,36 +42,33 @@ Adjusted color swatches
 }
 
 .text-barlow-heading {
-  font-family: BarlowCondensed;
+  font-family: PublicSans;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 38px;
   letter-spacing: -0.015em;
-  text-transform: uppercase;
 }
 
 .text-barlow-title {
-  font-family: BarlowCondensed;
+  font-family: PublicSans;
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
   line-height: 32px;
   letter-spacing: -0.015em;
-  text-transform: uppercase;
 }
 
 .text-barlow-logo {
-  font-family: BarlowCondensed;
+  font-family: PublicSans;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
-  text-transform: uppercase;
 }
 
 .text-primary-darker {
-  color: #64307E !important;
+  color: #042D36 !important;
 }
 
 .bg-primary-darker {
@@ -74,7 +76,7 @@ Adjusted color swatches
 }
 
 .text-unity-blue {
-  color: #6ACDE8 !important;
+  color: #0BB7C2 !important;
 }
 
 .bg-unity-pink {
@@ -149,11 +151,12 @@ Adjusted color swatches
 }
 
 .usa-button {
-  background-color: #D93778 !important;
+  background-color: white !important;
+  color: #042D36 !important;
 }
 
 .usa-button:hover {
-  background-color: #E07616 !important;
+  background-color: #0BB7C2 !important;
 }
 
 .usa-button:active {
@@ -179,11 +182,11 @@ Adjusted color swatches
 }
 @media (min-width: 910px) {
   .usa-nav__link::after {
-    background-color: #64307E !important;
+    background-color: #042D36 !important;
   }
 
   .usa-nav__link:hover {
-    color: #64307E !important;
+    color: #042D36 !important;
   }
 
   .nowrap {
@@ -1564,8 +1567,8 @@ through all possible variants
 }
 
 .usa-prose > table, .usa-table {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   border-collapse: collapse;
   border-spacing: 0;
@@ -1593,8 +1596,8 @@ through all possible variants
   padding: 0.5rem 1rem;
 }
 .usa-prose > table caption, .usa-table caption {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 0.94rem;
+  font-family: PublicSans, ;
+  font-size: 0.93rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
   text-align: left;
@@ -2026,48 +2029,6 @@ template {
   font-display: fallback;
   src: url(../fonts/roboto-mono/roboto-mono-v5-latin-700italic.woff2) format("woff2"), url(../fonts/roboto-mono/roboto-mono-v5-latin-700italic.woff) format("woff"), url(../fonts/roboto-mono/roboto-mono-v5-latin-700italic.ttf) format("truetype");
 }
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Light.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Light.woff) format("woff"), url(../fonts/public-sans/PublicSans-Light.ttf) format("truetype");
-}
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Regular.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Regular.woff) format("woff"), url(../fonts/public-sans/PublicSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Bold.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Bold.woff) format("woff"), url(../fonts/public-sans/PublicSans-Bold.ttf) format("truetype");
-}
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-LightItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-LightItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-LightItalic.ttf) format("truetype");
-}
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Italic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Italic.woff) format("woff"), url(../fonts/public-sans/PublicSans-Italic.ttf) format("truetype");
-}
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-BoldItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-BoldItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-BoldItalic.ttf) format("truetype");
-}
 /* stylelint-enable */
 input:not([disabled]):focus,
 select:not([disabled]):focus,
@@ -2103,7 +2064,7 @@ html {
 html {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
   font-size: 100%;
 }
 
@@ -2127,8 +2088,8 @@ body {
 }
 
 .usa-button {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1;
   color: white;
   background-color: #005ea2;
@@ -2160,7 +2121,7 @@ body {
 }
 .usa-button:active, .usa-button.usa-button--active {
   color: white;
-  background-color: #64307E;
+  background-color: #042D36;
 }
 .usa-button:not([disabled]):focus, .usa-button:not([disabled]).usa-focus {
   outline-offset: 0.25rem;
@@ -2180,11 +2141,11 @@ body {
 
 .usa-button--accent-cool {
   color: #1b1b1b;
-  background-color: #E070A3;
+  background-color: #0BB7C2;
 }
 .usa-button--accent-cool:visited {
   color: #1b1b1b;
-  background-color: #E070A3;
+  background-color: #0BB7C2;
 }
 .usa-button--accent-cool:hover, .usa-button--accent-cool.usa-button--hover {
   color: #1b1b1b;
@@ -2227,8 +2188,8 @@ body {
 }
 .usa-button--outline:active, .usa-button--outline.usa-button--active {
   background-color: transparent;
-  box-shadow: inset 0 0 0 2px #64307E;
-  color: #64307E;
+  box-shadow: inset 0 0 0 2px #042D36;
+  color: #042D36;
 }
 .usa-button--outline.usa-button--inverse {
   box-shadow: inset 0 0 0 2px #dfe1e2;
@@ -2265,7 +2226,7 @@ body {
   color: #1a4480;
 }
 .usa-button--outline.usa-button--inverse.usa-button--unstyled:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-button--outline.usa-button--inverse.usa-button--unstyled:focus {
   outline: 0.25rem solid #2491ff;
@@ -2316,7 +2277,7 @@ body {
 
 .usa-button--big {
   border-radius: 0.25rem;
-  font-size: 1.38rem;
+  font-size: 1.37rem;
   padding: 1rem 1.5rem;
 }
 
@@ -2400,7 +2361,7 @@ body {
   color: #1a4480;
 }
 .usa-button--unstyled:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-button--unstyled:focus {
   outline: 0.25rem solid #2491ff;
@@ -2447,8 +2408,8 @@ img {
 .usa-combo-box__list, .usa-combo-box__input, .usa-input,
 .usa-textarea, .usa-range, .usa-select, .usa-fieldset,
 .usa-hint {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.4;
 }
 
@@ -2508,8 +2469,8 @@ img {
 
 .usa-label,
 .usa-legend {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.4;
   display: block;
   font-weight: normal;
@@ -2527,7 +2488,7 @@ img {
 }
 
 .usa-legend--large {
-  font-size: 2rem;
+  font-size: 1.99rem;
   font-weight: bold;
   margin-top: 1rem;
 }
@@ -2728,7 +2689,7 @@ img {
 .usa-file-input__target {
   border: 1px dashed #a9aeb1;
   display: block;
-  font-size: 0.88rem;
+  font-size: 0.87rem;
   margin-top: 0.5rem;
   position: relative;
   text-align: center;
@@ -2763,7 +2724,7 @@ img {
   color: #1a4480;
 }
 .usa-file-input__choose:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-file-input__choose:focus {
   outline: 0.25rem solid #2491ff;
@@ -5033,8 +4994,8 @@ button.usa-combo-box__clear-input:focus {
 }
 /* stylelint-enable */
 .usa-tag {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 0.88rem;
+  font-family: PublicSans, ;
+  font-size: 0.87rem;
   color: white;
   text-transform: uppercase;
   background-color: #565c65;
@@ -5049,8 +5010,8 @@ button.usa-combo-box__clear-input:focus {
 .usa-tag--big {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
 }
 
 .usa-paragraph {
@@ -5076,7 +5037,7 @@ button.usa-combo-box__clear-input:focus {
   margin-bottom: 0;
   margin-top: 0;
   clear: both;
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 1.37rem;
   line-height: 1.2;
   font-weight: bold;
@@ -5093,7 +5054,7 @@ button.usa-combo-box__clear-input:focus {
     margin-bottom: 0;
     margin-top: 0;
     clear: both;
-    font-family: BarlowCondensed, ;
+    font-family: PublicSans, ;
     font-size: 2.49rem;
     line-height: 1.2;
     font-weight: bold;
@@ -5110,7 +5071,7 @@ button.usa-combo-box__clear-input:focus {
     margin-bottom: 0;
     margin-top: 0;
     clear: both;
-    font-family: BarlowCondensed, ;
+    font-family: PublicSans, ;
     font-size: 2.98rem;
     line-height: 1.2;
     font-weight: bold;
@@ -5124,7 +5085,7 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-intro {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 1.37rem;
   line-height: 1.8;
   font-weight: 400;
@@ -5195,7 +5156,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-link:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-link:focus {
   outline: 0.25rem solid #2491ff;
@@ -5257,8 +5218,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-prose {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
 }
 .usa-prose > a {
@@ -5269,7 +5230,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-prose > a:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-prose > a:focus {
   outline: 0.25rem solid #2491ff;
@@ -5279,37 +5240,37 @@ button.usa-combo-box__clear-input:focus {
   color: #54278f;
 }
 .usa-prose > h1 {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 2.49rem;
   line-height: 1.2;
   font-weight: bold;
 }
 .usa-prose > h2 {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 1.99rem;
   line-height: 1.2;
   font-weight: bold;
 }
 .usa-prose > h3 {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 1.37rem;
   line-height: 1.2;
   font-weight: bold;
 }
 .usa-prose > h4 {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 0.99rem;
   line-height: 1.2;
   font-weight: bold;
 }
 .usa-prose > h5 {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 0.93rem;
   line-height: 1.2;
   font-weight: bold;
 }
 .usa-prose > h6 {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
   font-size: 0.81rem;
   line-height: 1.2;
   font-weight: normal;
@@ -5325,8 +5286,8 @@ button.usa-combo-box__clear-input:focus {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
 }
 .usa-accordion > li {
@@ -5359,8 +5320,8 @@ button.usa-combo-box__clear-input:focus {
 
 .usa-accordion__heading,
 .usa-prose .usa-accordion__heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1;
   margin: 0;
 }
@@ -5413,7 +5374,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-accordion__button:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-accordion__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -5442,8 +5403,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-alert {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   background-color: #f0f0f0;
   background-position: 1.75rem 1.25rem;
@@ -5487,8 +5448,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-alert__heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1.38rem;
+  font-family: PublicSans, ;
+  font-size: 1.37rem;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -5506,7 +5467,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-alert__text a:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-alert__text a:focus {
   outline: 0.25rem solid #2491ff;
@@ -5601,8 +5562,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-identifier {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.4;
   color: white;
   background-color: #1b1b1b;
@@ -5697,7 +5658,7 @@ button.usa-combo-box__clear-input:focus {
 }
 @media all and (min-width: 64em) {
   .usa-identifier__section--required-links {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 }
 
@@ -5771,8 +5732,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-banner {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   background-color: #f0f0f0;
 }
@@ -5783,8 +5744,8 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-banner .usa-accordion {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
 }
 
@@ -5802,7 +5763,7 @@ button.usa-combo-box__clear-input:focus {
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: transparent;
-  font-size: 0.94rem;
+  font-size: 0.93rem;
   overflow: hidden;
   padding-bottom: 1rem;
   padding-left: 0.5rem;
@@ -6022,7 +5983,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-banner__button:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-banner__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -6186,8 +6147,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-breadcrumb {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.4;
   color: #1b1b1b;
   background-color: white;
@@ -6264,7 +6225,7 @@ button.usa-combo-box__clear-input:focus {
     color: #1a4480;
   }
   .usa-breadcrumb__list-item:nth-last-child(2) .usa-breadcrumb__link:active {
-    color: #64307E;
+    color: #042D36;
   }
   .usa-breadcrumb__list-item:nth-last-child(2) .usa-breadcrumb__link:focus {
     outline: 0.25rem solid #2491ff;
@@ -6535,8 +6496,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-card__container {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   background-color: white;
   border-width: 2px;
@@ -6570,7 +6531,7 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-card__heading {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 1.37rem;
   line-height: 1.2;
   margin: 0;
@@ -6797,8 +6758,8 @@ button.usa-combo-box__clear-input:focus {
   margin-top: 0;
   list-style-type: none;
   padding-left: 0;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
 }
 
@@ -6825,8 +6786,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   overflow: hidden;
 }
@@ -6857,7 +6818,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-footer__return-to-top a:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-footer__return-to-top a:focus {
   outline: 0.25rem solid #2491ff;
@@ -6987,7 +6948,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-footer__secondary-link a:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-footer__secondary-link a:focus {
   outline: 0.25rem solid #2491ff;
@@ -7041,7 +7002,7 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-sign-up__heading {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 1.37rem;
   line-height: 1.2;
   font-weight: bold;
@@ -7087,8 +7048,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer__logo-heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1.38rem;
+  font-family: PublicSans, ;
+  font-size: 1.37rem;
   line-height: 1;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
@@ -7105,8 +7066,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer__contact-heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1.38rem;
+  font-family: PublicSans, ;
+  font-size: 1.37rem;
   line-height: 1.2;
   margin-top: 0;
 }
@@ -7223,7 +7184,7 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-footer--big .usa-footer__primary-link {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 0.99rem;
   line-height: 1.2;
   font-weight: bold;
@@ -7291,8 +7252,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-form {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.4;
 }
 
@@ -7329,7 +7290,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-form a:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-form a:focus {
   outline: 0.25rem solid #2491ff;
@@ -7346,16 +7307,16 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-form__note {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 0.88rem;
+  font-family: PublicSans, ;
+  font-size: 0.87rem;
   line-height: 1.4;
   float: right;
   margin: 0.25rem 0 1rem;
 }
 
 .usa-graphic-list {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
 }
 .usa-graphic-list .usa-graphic-list__row .usa-media-block {
@@ -7385,7 +7346,7 @@ button.usa-combo-box__clear-input:focus {
   margin-bottom: 0;
   margin-top: 0;
   clear: both;
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 1.37rem;
   line-height: 1.2;
   font-weight: bold;
@@ -7398,8 +7359,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-header {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   z-index: 300;
 }
@@ -7441,7 +7402,7 @@ button.usa-combo-box__clear-input:focus {
 @media all and (max-width: 63.99em) {
   .usa-logo {
     flex: 1 1 0%;
-    font-size: 0.88rem;
+    font-size: 0.87rem;
     line-height: 1;
     margin-left: 1rem;
   }
@@ -7450,7 +7411,7 @@ button.usa-combo-box__clear-input:focus {
   .usa-logo {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-size: 1.38rem;
+    font-size: 1.37rem;
     line-height: 1.2;
   }
 }
@@ -7494,7 +7455,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-menu-btn:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-menu-btn:focus {
   outline: 0.25rem solid #2491ff;
@@ -7641,7 +7602,7 @@ button.usa-combo-box__clear-input:focus {
 }
 @media all and (min-width: 64em) {
   .usa-header--extended .usa-logo {
-    font-size: 2rem;
+    font-size: 1.99rem;
     margin: 2rem 0 1.5rem;
     max-width: 50%;
   }
@@ -7716,8 +7677,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-hero {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -7728,7 +7689,7 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-hero__callout {
-  background-color: #64307E;
+  background-color: #042D36;
   padding: 2rem;
 }
 @media all and (min-width: 40em) {
@@ -7741,11 +7702,11 @@ button.usa-combo-box__clear-input:focus {
   margin-bottom: 0;
   margin-top: 0;
   clear: both;
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
   font-size: 1.99rem;
   line-height: 1.2;
   font-weight: bold;
-  color: #E070A3;
+  color: #0BB7C2;
   line-height: 1.2;
 }
 * + .usa-hero__heading {
@@ -7815,7 +7776,7 @@ button.usa-combo-box__clear-input:focus {
     position: absolute;
     bottom: 0;
     top: 0;
-    background-color: #64307E;
+    background-color: #042D36;
     content: "";
     display: block;
     position: absolute;
@@ -7828,7 +7789,7 @@ button.usa-combo-box__clear-input:focus {
     position: absolute;
     bottom: 0;
     top: 0;
-    background-color: #64307E;
+    background-color: #042D36;
     content: "";
     display: block;
     position: absolute;
@@ -7887,8 +7848,8 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-nav {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1;
 }
 @media all and (max-width: 63.99em) {
@@ -7925,8 +7886,8 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-nav .usa-accordion {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1;
 }
 
@@ -8012,7 +7973,7 @@ button.usa-combo-box__clear-input:focus {
 }
 @media all and (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
     line-height: 1;
   }
 }
@@ -8057,7 +8018,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-nav__primary button:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-nav__primary button:focus {
   outline: 0.25rem solid #2491ff;
@@ -8077,7 +8038,7 @@ button.usa-combo-box__clear-input:focus {
   .usa-nav__primary button {
     line-height: 1;
     padding: 1rem;
-    font-size: 0.88rem;
+    font-size: 0.87rem;
     font-weight: bold;
   }
 }
@@ -8126,7 +8087,7 @@ button.usa-combo-box__clear-input:focus {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     background-size: 0.5rem;
-    background-color: #64307E;
+    background-color: #042D36;
     background-position: right 1rem top 53%;
     color: white;
   }
@@ -8144,7 +8105,7 @@ button.usa-combo-box__clear-input:focus {
 @media all and (min-width: 64em) {
   .usa-nav__secondary {
     bottom: 4rem;
-    font-size: 0.88rem;
+    font-size: 0.87rem;
     margin-top: 0.5rem;
     min-width: calc( 27ch + 3rem );
     position: absolute;
@@ -8192,7 +8153,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-nav__secondary-links a {
   color: #71767a;
   display: inline-block;
-  font-size: 0.88rem;
+  font-size: 0.87rem;
   text-decoration: none;
 }
 .usa-nav__secondary-links a:hover {
@@ -8214,7 +8175,7 @@ button.usa-combo-box__clear-input:focus {
   }
   .usa-nav__submenu-item {
     border-top: 1px solid #dfe1e2;
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
   .usa-nav__submenu .usa-current::after {
     display: none;
@@ -8247,7 +8208,7 @@ button.usa-combo-box__clear-input:focus {
     margin-top: 0;
     list-style-type: none;
     padding-left: 0;
-    background-color: #64307E;
+    background-color: #042D36;
     width: 15rem;
     padding: 1rem;
     position: absolute;
@@ -8286,7 +8247,7 @@ button.usa-combo-box__clear-input:focus {
 }
 .usa-nav__submenu-list .usa-nav__submenu-list-item {
   margin: 0;
-  font-size: 0.88rem;
+  font-size: 0.87rem;
 }
 .usa-nav__submenu-list .usa-nav__submenu-list-item a {
   line-height: 1.4;
@@ -8317,7 +8278,7 @@ button.usa-combo-box__clear-input:focus {
   color: #1a4480;
 }
 .usa-nav__close:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-nav__close:focus {
   outline: 0.25rem solid #2491ff;
@@ -8354,8 +8315,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-step-indicator {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.2;
   background-color: white;
   margin-bottom: 2rem;
@@ -8403,10 +8364,10 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-step-indicator__segment--complete::after {
-  background-color: #64307E;
+  background-color: #042D36;
 }
 .usa-step-indicator__segment--complete .usa-step-indicator__segment-label {
-  color: #64307E;
+  color: #042D36;
 }
 
 .usa-step-indicator__segment--current::after {
@@ -8424,7 +8385,7 @@ button.usa-combo-box__clear-input:focus {
   .usa-step-indicator__segment-label {
     color: #565c65;
     display: block;
-    font-size: 1rem;
+    font-size: 0.99rem;
     margin-top: calc( 0.5rem + 0.5rem );
     padding-right: 2rem;
     text-align: left;
@@ -8438,14 +8399,14 @@ button.usa-combo-box__clear-input:focus {
 
 .usa-step-indicator__heading {
   color: #1b1b1b;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
   font-size: 1.06rem;
   font-weight: bold;
   margin: 1rem 0 0;
 }
 @media all and (min-width: 40em) {
   .usa-step-indicator__heading {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
     margin-top: 2rem;
   }
 }
@@ -8504,7 +8465,7 @@ button.usa-combo-box__clear-input:focus {
 }
 .usa-step-indicator--counters .usa-step-indicator__segment--complete::before,
 .usa-step-indicator--counters-sm .usa-step-indicator__segment--complete::before {
-  background-color: #64307E;
+  background-color: #042D36;
   box-shadow: 0 0 0 0.25rem white;
   color: white;
 }
@@ -8544,7 +8505,7 @@ button.usa-combo-box__clear-input:focus {
     height: 1.5rem;
     border-radius: 99rem;
     width: 1.5rem;
-    font-size: 0.88rem;
+    font-size: 0.87rem;
     padding: calc(0.25rem + 1px);
     top: calc( ( 1.5rem - 0.5rem ) / -2 );
   }
@@ -8608,8 +8569,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-search {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   position: relative;
 }
@@ -8646,7 +8607,7 @@ button.usa-combo-box__clear-input:focus {
 @media all and (min-width: 30em) {
   .usa-search--big [type=search],
 .usa-search--big .usa-search__input {
-    font-size: 1rem;
+    font-size: 0.99rem;
     height: 3rem;
   }
 }
@@ -8655,7 +8616,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-search--big .usa-search__submit {
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: 1.38rem;
+    font-size: 1.37rem;
     height: 3rem;
     width: auto;
   }
@@ -8687,7 +8648,7 @@ input[type=search] {
   border-top-right-radius: 0;
   box-sizing: border-box;
   float: left;
-  font-size: 0.94rem;
+  font-size: 0.93rem;
   height: 2rem;
   margin: 0;
 }
@@ -8718,7 +8679,7 @@ input[type=search] {
 }
 
 .usa-section--dark {
-  background-color: #64307E;
+  background-color: #042D36;
   color: white;
 }
 .usa-section--dark h1,
@@ -8727,7 +8688,7 @@ input[type=search] {
 .usa-section--dark h4,
 .usa-section--dark h5,
 .usa-section--dark h6 {
-  color: #E070A3;
+  color: #0BB7C2;
 }
 .usa-section--dark p {
   color: white;
@@ -8747,8 +8708,8 @@ input[type=search] {
   margin-top: 0;
   list-style-type: none;
   padding-left: 0;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.4;
   border-bottom: 1px solid #dfe1e2;
 }
@@ -8822,7 +8783,7 @@ input[type=search] {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
-  font-size: 0.94rem;
+  font-size: 0.93rem;
 }
 .usa-sidenav__sublist > li {
   margin-bottom: 0;
@@ -8830,7 +8791,7 @@ input[type=search] {
 }
 .usa-sidenav__sublist-item {
   border-top: 1px solid #dfe1e2;
-  font-size: 0.88rem;
+  font-size: 0.87rem;
 }
 .usa-sidenav__sublist .usa-current::after {
   display: none;
@@ -8852,8 +8813,8 @@ input[type=search] {
 }
 
 .usa-skipnav {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 1rem;
+  font-family: PublicSans, ;
+  font-size: 0.99rem;
   line-height: 1.6;
   color: #005ea2;
   text-decoration: underline;
@@ -8869,7 +8830,7 @@ input[type=search] {
   color: #1a4480;
 }
 .usa-skipnav:active {
-  color: #64307E;
+  color: #042D36;
 }
 .usa-skipnav:focus {
   outline: 0.25rem solid #2491ff;
@@ -8907,7 +8868,7 @@ input[type=search] {
   bottom: 0;
   color: #f0f0f0;
   display: none;
-  font-size: 0.94rem;
+  font-size: 0.93rem;
   padding: 0.5rem;
   position: absolute;
   pointer-events: none;
@@ -9004,23 +8965,23 @@ utilities to reference.
 }
 
 [class*=font-sans-] {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
 }
 
 [class*=font-serif-] {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
 }
 
 [class*=font-ui-] {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
 }
 
 [class*=font-heading-] {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
 }
 
 [class*=font-body-] {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
 }
 
 [class*=font-code-] {
@@ -9028,7 +8989,7 @@ utilities to reference.
 }
 
 [class*=font-alt-] {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
 }
 
 /*
@@ -10895,11 +10856,11 @@ example:
 }
 */
 .bg-primary-darker {
-  background-color: #64307E;
+  background-color: #042D36;
 }
 
 .hover\:bg-primary-darker:hover {
-  background-color: #64307E;
+  background-color: #042D36;
 }
 
 /*
@@ -11161,11 +11122,11 @@ example:
 }
 */
 .bg-accent-cool {
-  background-color: #E070A3;
+  background-color: #0BB7C2;
 }
 
 .hover\:bg-accent-cool:hover {
-  background-color: #E070A3;
+  background-color: #0BB7C2;
 }
 
 /*
@@ -13215,11 +13176,11 @@ example:
 }
 */
 .border-primary-darker {
-  border-color: #64307E;
+  border-color: #042D36;
 }
 
 .hover\:border-primary-darker:hover {
-  border-color: #64307E;
+  border-color: #042D36;
 }
 
 /*
@@ -13481,11 +13442,11 @@ example:
 }
 */
 .border-accent-cool {
-  border-color: #E070A3;
+  border-color: #0BB7C2;
 }
 
 .hover\:border-accent-cool:hover {
-  border-color: #E070A3;
+  border-color: #0BB7C2;
 }
 
 /*
@@ -16307,11 +16268,11 @@ example:
 }
 */
 .text-primary-darker {
-  color: #64307E;
+  color: #042D36;
 }
 
 .hover\:text-primary-darker:hover {
-  color: #64307E;
+  color: #042D36;
 }
 
 /*
@@ -16573,11 +16534,11 @@ example:
 }
 */
 .text-accent-cool {
-  color: #E070A3;
+  color: #0BB7C2;
 }
 
 .hover\:text-accent-cool:hover {
-  color: #E070A3;
+  color: #0BB7C2;
 }
 
 /*
@@ -17320,7 +17281,7 @@ example:
 }
 */
 .font-sans-2xs {
-  font-size: 0.88rem;
+  font-size: 0.87rem;
 }
 
 /*
@@ -17335,7 +17296,7 @@ example:
 }
 */
 .font-sans-xs {
-  font-size: 0.94rem;
+  font-size: 0.93rem;
 }
 
 /*
@@ -17350,7 +17311,7 @@ example:
 }
 */
 .font-sans-sm {
-  font-size: 1rem;
+  font-size: 0.99rem;
 }
 
 /*
@@ -17380,7 +17341,7 @@ example:
 }
 */
 .font-sans-lg {
-  font-size: 1.38rem;
+  font-size: 1.37rem;
 }
 
 /*
@@ -17395,7 +17356,7 @@ example:
 }
 */
 .font-sans-xl {
-  font-size: 2rem;
+  font-size: 1.99rem;
 }
 
 /*
@@ -17410,7 +17371,7 @@ example:
 }
 */
 .font-sans-2xl {
-  font-size: 2.5rem;
+  font-size: 2.49rem;
 }
 
 /*
@@ -17425,7 +17386,7 @@ example:
 }
 */
 .font-sans-3xl {
-  font-size: 3rem;
+  font-size: 2.98rem;
 }
 
 /*
@@ -17725,7 +17686,7 @@ example:
 }
 */
 .font-body-2xs {
-  font-size: 0.88rem;
+  font-size: 0.87rem;
 }
 
 /*
@@ -17740,7 +17701,7 @@ example:
 }
 */
 .font-body-xs {
-  font-size: 0.94rem;
+  font-size: 0.93rem;
 }
 
 /*
@@ -17755,7 +17716,7 @@ example:
 }
 */
 .font-body-sm {
-  font-size: 1rem;
+  font-size: 0.99rem;
 }
 
 /*
@@ -17785,7 +17746,7 @@ example:
 }
 */
 .font-body-lg {
-  font-size: 1.38rem;
+  font-size: 1.37rem;
 }
 
 /*
@@ -17800,7 +17761,7 @@ example:
 }
 */
 .font-body-xl {
-  font-size: 2rem;
+  font-size: 1.99rem;
 }
 
 /*
@@ -17815,7 +17776,7 @@ example:
 }
 */
 .font-body-2xl {
-  font-size: 2.5rem;
+  font-size: 2.49rem;
 }
 
 /*
@@ -17830,7 +17791,7 @@ example:
 }
 */
 .font-body-3xl {
-  font-size: 3rem;
+  font-size: 2.98rem;
 }
 
 /*
@@ -18130,7 +18091,7 @@ example:
 }
 */
 .font-ui-2xs {
-  font-size: 0.88rem;
+  font-size: 0.87rem;
 }
 
 /*
@@ -18145,7 +18106,7 @@ example:
 }
 */
 .font-ui-xs {
-  font-size: 0.94rem;
+  font-size: 0.93rem;
 }
 
 /*
@@ -18160,7 +18121,7 @@ example:
 }
 */
 .font-ui-sm {
-  font-size: 1rem;
+  font-size: 0.99rem;
 }
 
 /*
@@ -18190,7 +18151,7 @@ example:
 }
 */
 .font-ui-lg {
-  font-size: 1.38rem;
+  font-size: 1.37rem;
 }
 
 /*
@@ -18205,7 +18166,7 @@ example:
 }
 */
 .font-ui-xl {
-  font-size: 2rem;
+  font-size: 1.99rem;
 }
 
 /*
@@ -18220,7 +18181,7 @@ example:
 }
 */
 .font-ui-2xl {
-  font-size: 2.5rem;
+  font-size: 2.49rem;
 }
 
 /*
@@ -18235,7 +18196,7 @@ example:
 }
 */
 .font-ui-3xl {
-  font-size: 3rem;
+  font-size: 2.98rem;
 }
 
 /*
@@ -18265,7 +18226,7 @@ example:
 }
 */
 .font-family-sans {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
 }
 
 /*
@@ -18280,7 +18241,7 @@ example:
 }
 */
 .font-family-serif {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
 }
 
 /*
@@ -18295,7 +18256,7 @@ example:
 }
 */
 .font-family-ui {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
 }
 
 /*
@@ -18310,7 +18271,7 @@ example:
 }
 */
 .font-family-heading {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
 }
 
 /*
@@ -18325,7 +18286,7 @@ example:
 }
 */
 .font-family-body {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: PublicSans, ;
 }
 
 /*
@@ -18355,7 +18316,7 @@ example:
 }
 */
 .font-family-alt {
-  font-family: BarlowCondensed, ;
+  font-family: PublicSans, ;
 }
 
 /*
@@ -25663,7 +25624,7 @@ example:
 }
 */
 .outline-primary-darker {
-  outline-color: #64307E;
+  outline-color: #042D36;
 }
 
 /*
@@ -25873,7 +25834,7 @@ example:
 }
 */
 .outline-accent-cool {
-  outline-color: #E070A3;
+  outline-color: #0BB7C2;
 }
 
 /*
@@ -29408,11 +29369,11 @@ example:
 }
 */
 .underline-primary-darker {
-  text-decoration-color: #64307E;
+  text-decoration-color: #042D36;
 }
 
 .hover\:underline-primary-darker:hover {
-  text-decoration-color: #64307E;
+  text-decoration-color: #042D36;
 }
 
 /*
@@ -29674,11 +29635,11 @@ example:
 }
 */
 .underline-accent-cool {
-  text-decoration-color: #E070A3;
+  text-decoration-color: #0BB7C2;
 }
 
 .hover\:underline-accent-cool:hover {
-  text-decoration-color: #E070A3;
+  text-decoration-color: #0BB7C2;
 }
 
 /*
@@ -33244,11 +33205,11 @@ example:
   }
   */
   .mobile-lg\:border-primary-darker {
-    border-color: #64307E;
+    border-color: #042D36;
   }
 
   .mobile-lg\:hover\:border-primary-darker:hover {
-    border-color: #64307E;
+    border-color: #042D36;
   }
 
   /*
@@ -33510,11 +33471,11 @@ example:
   }
   */
   .mobile-lg\:border-accent-cool {
-    border-color: #E070A3;
+    border-color: #0BB7C2;
   }
 
   .mobile-lg\:hover\:border-accent-cool:hover {
-    border-color: #E070A3;
+    border-color: #0BB7C2;
   }
 
   /*
@@ -34247,7 +34208,7 @@ example:
   }
   */
   .mobile-lg\:font-sans-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -34262,7 +34223,7 @@ example:
   }
   */
   .mobile-lg\:font-sans-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -34277,7 +34238,7 @@ example:
   }
   */
   .mobile-lg\:font-sans-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -34307,7 +34268,7 @@ example:
   }
   */
   .mobile-lg\:font-sans-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -34322,7 +34283,7 @@ example:
   }
   */
   .mobile-lg\:font-sans-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -34337,7 +34298,7 @@ example:
   }
   */
   .mobile-lg\:font-sans-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -34352,7 +34313,7 @@ example:
   }
   */
   .mobile-lg\:font-sans-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
@@ -34652,7 +34613,7 @@ example:
   }
   */
   .mobile-lg\:font-body-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -34667,7 +34628,7 @@ example:
   }
   */
   .mobile-lg\:font-body-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -34682,7 +34643,7 @@ example:
   }
   */
   .mobile-lg\:font-body-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -34712,7 +34673,7 @@ example:
   }
   */
   .mobile-lg\:font-body-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -34727,7 +34688,7 @@ example:
   }
   */
   .mobile-lg\:font-body-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -34742,7 +34703,7 @@ example:
   }
   */
   .mobile-lg\:font-body-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -34757,7 +34718,7 @@ example:
   }
   */
   .mobile-lg\:font-body-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
@@ -35057,7 +35018,7 @@ example:
   }
   */
   .mobile-lg\:font-ui-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -35072,7 +35033,7 @@ example:
   }
   */
   .mobile-lg\:font-ui-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -35087,7 +35048,7 @@ example:
   }
   */
   .mobile-lg\:font-ui-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -35117,7 +35078,7 @@ example:
   }
   */
   .mobile-lg\:font-ui-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -35132,7 +35093,7 @@ example:
   }
   */
   .mobile-lg\:font-ui-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -35147,7 +35108,7 @@ example:
   }
   */
   .mobile-lg\:font-ui-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -35162,7 +35123,7 @@ example:
   }
   */
   .mobile-lg\:font-ui-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
@@ -43903,11 +43864,11 @@ example:
   }
   */
   .tablet\:border-primary-darker {
-    border-color: #64307E;
+    border-color: #042D36;
   }
 
   .tablet\:hover\:border-primary-darker:hover {
-    border-color: #64307E;
+    border-color: #042D36;
   }
 
   /*
@@ -44169,11 +44130,11 @@ example:
   }
   */
   .tablet\:border-accent-cool {
-    border-color: #E070A3;
+    border-color: #0BB7C2;
   }
 
   .tablet\:hover\:border-accent-cool:hover {
-    border-color: #E070A3;
+    border-color: #0BB7C2;
   }
 
   /*
@@ -44906,7 +44867,7 @@ example:
   }
   */
   .tablet\:font-sans-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -44921,7 +44882,7 @@ example:
   }
   */
   .tablet\:font-sans-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -44936,7 +44897,7 @@ example:
   }
   */
   .tablet\:font-sans-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -44966,7 +44927,7 @@ example:
   }
   */
   .tablet\:font-sans-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -44981,7 +44942,7 @@ example:
   }
   */
   .tablet\:font-sans-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -44996,7 +44957,7 @@ example:
   }
   */
   .tablet\:font-sans-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -45011,7 +44972,7 @@ example:
   }
   */
   .tablet\:font-sans-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
@@ -45311,7 +45272,7 @@ example:
   }
   */
   .tablet\:font-body-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -45326,7 +45287,7 @@ example:
   }
   */
   .tablet\:font-body-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -45341,7 +45302,7 @@ example:
   }
   */
   .tablet\:font-body-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -45371,7 +45332,7 @@ example:
   }
   */
   .tablet\:font-body-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -45386,7 +45347,7 @@ example:
   }
   */
   .tablet\:font-body-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -45401,7 +45362,7 @@ example:
   }
   */
   .tablet\:font-body-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -45416,7 +45377,7 @@ example:
   }
   */
   .tablet\:font-body-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
@@ -45716,7 +45677,7 @@ example:
   }
   */
   .tablet\:font-ui-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -45731,7 +45692,7 @@ example:
   }
   */
   .tablet\:font-ui-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -45746,7 +45707,7 @@ example:
   }
   */
   .tablet\:font-ui-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -45776,7 +45737,7 @@ example:
   }
   */
   .tablet\:font-ui-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -45791,7 +45752,7 @@ example:
   }
   */
   .tablet\:font-ui-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -45806,7 +45767,7 @@ example:
   }
   */
   .tablet\:font-ui-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -45821,7 +45782,7 @@ example:
   }
   */
   .tablet\:font-ui-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
@@ -54562,11 +54523,11 @@ example:
   }
   */
   .desktop\:border-primary-darker {
-    border-color: #64307E;
+    border-color: #042D36;
   }
 
   .desktop\:hover\:border-primary-darker:hover {
-    border-color: #64307E;
+    border-color: #042D36;
   }
 
   /*
@@ -54828,11 +54789,11 @@ example:
   }
   */
   .desktop\:border-accent-cool {
-    border-color: #E070A3;
+    border-color: #0BB7C2;
   }
 
   .desktop\:hover\:border-accent-cool:hover {
-    border-color: #E070A3;
+    border-color: #0BB7C2;
   }
 
   /*
@@ -55565,7 +55526,7 @@ example:
   }
   */
   .desktop\:font-sans-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -55580,7 +55541,7 @@ example:
   }
   */
   .desktop\:font-sans-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -55595,7 +55556,7 @@ example:
   }
   */
   .desktop\:font-sans-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -55625,7 +55586,7 @@ example:
   }
   */
   .desktop\:font-sans-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -55640,7 +55601,7 @@ example:
   }
   */
   .desktop\:font-sans-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -55655,7 +55616,7 @@ example:
   }
   */
   .desktop\:font-sans-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -55670,7 +55631,7 @@ example:
   }
   */
   .desktop\:font-sans-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
@@ -55970,7 +55931,7 @@ example:
   }
   */
   .desktop\:font-body-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -55985,7 +55946,7 @@ example:
   }
   */
   .desktop\:font-body-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -56000,7 +55961,7 @@ example:
   }
   */
   .desktop\:font-body-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -56030,7 +55991,7 @@ example:
   }
   */
   .desktop\:font-body-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -56045,7 +56006,7 @@ example:
   }
   */
   .desktop\:font-body-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -56060,7 +56021,7 @@ example:
   }
   */
   .desktop\:font-body-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -56075,7 +56036,7 @@ example:
   }
   */
   .desktop\:font-body-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
@@ -56375,7 +56336,7 @@ example:
   }
   */
   .desktop\:font-ui-2xs {
-    font-size: 0.88rem;
+    font-size: 0.87rem;
   }
 
   /*
@@ -56390,7 +56351,7 @@ example:
   }
   */
   .desktop\:font-ui-xs {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
   }
 
   /*
@@ -56405,7 +56366,7 @@ example:
   }
   */
   .desktop\:font-ui-sm {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   /*
@@ -56435,7 +56396,7 @@ example:
   }
   */
   .desktop\:font-ui-lg {
-    font-size: 1.38rem;
+    font-size: 1.37rem;
   }
 
   /*
@@ -56450,7 +56411,7 @@ example:
   }
   */
   .desktop\:font-ui-xl {
-    font-size: 2rem;
+    font-size: 1.99rem;
   }
 
   /*
@@ -56465,7 +56426,7 @@ example:
   }
   */
   .desktop\:font-ui-2xl {
-    font-size: 2.5rem;
+    font-size: 2.49rem;
   }
 
   /*
@@ -56480,7 +56441,7 @@ example:
   }
   */
   .desktop\:font-ui-3xl {
-    font-size: 3rem;
+    font-size: 2.98rem;
   }
 
   /*
