@@ -39,7 +39,14 @@ msgid ""
 "CI/CD workflows.” It is open-source, written in Perl, and primarily a back-"
 "end tool. It is built for modularity, functioning via plugins into VCS’s and "
 "TMS’s."
-msgstr "- Serge &quot;es una solución de localización continua que le permite configurar escenarios de automatización de localización robustos en minutos e integrar procesos de localización en su desarrollo diario, creación de contenido y flujos de trabajo de CI / CD&quot;. Es de código abierto, escrito en Perl y principalmente una herramienta de back-end. Está construido para la modularidad, funciona a través de complementos en VCS y TMS."
+msgstr ""
+"- Serge &quot;es una solución de localización continua que le permite "
+"configurar escenarios de automatización de localización robustos en minutos "
+"e integrar procesos de localización en su desarrollo diario, creación de "
+"contenido y flujos de trabajo de CI / CD&quot;. Es de código abierto, "
+"escrito en Perl y principalmente una herramienta de back-end. Está "
+"construido para la modularidad, funciona a través de complementos en VCS y "
+"TMS."
 
 #. /checkSafetyAlt
 #: File: en.json
@@ -76,7 +83,13 @@ msgid ""
 "The purpose of translation is to convey the original tone and intent of a "
 "message, taking into account cultural and regional differences between "
 "source and target languages.”"
-msgstr "- Según GALA, “la traducción es la comunicación de significado de un idioma (la fuente) a otro idioma (el destino). La traducción se refiere a la información escrita, mientras que la interpretación se refiere a la información hablada. El propósito de la traducción es transmitir el tono original y la intención de un mensaje, teniendo en cuenta las diferencias culturales y regionales entre los idiomas de origen y destino &quot;."
+msgstr ""
+"- Según GALA, “la traducción es la comunicación de significado de un idioma "
+"(la fuente) a otro idioma (el destino). La traducción se refiere a la "
+"información escrita, mientras que la interpretación se refiere a la "
+"información hablada. El propósito de la traducción es transmitir el tono "
+"original y la intención de un mensaje, teniendo en cuenta las diferencias "
+"culturales y regionales entre los idiomas de origen y destino &quot;."
 
 #. /conceptsHeading
 #: File: en.json
@@ -110,7 +123,12 @@ msgid ""
 "to ensure that technology is inclusive, accessible, human-centered, and "
 "works for all New Yorkers. Focus areas include universal broadband, digital "
 "services, inclusive innovation, and tech policy."
-msgstr "- MOCTO es una agencia del gobierno de la ciudad que colabora con otras agencias para garantizar que la tecnología sea inclusiva, accesible, centrada en el ser humano y funcione para todos los neoyorquinos. Las áreas de enfoque incluyen banda ancha universal, servicios digitales, innovación inclusiva y política tecnológica."
+msgstr ""
+"- MOCTO es una agencia del gobierno de la ciudad que colabora con otras "
+"agencias para garantizar que la tecnología sea inclusiva, accesible, "
+"centrada en el ser humano y funcione para todos los neoyorquinos. Las áreas "
+"de enfoque incluyen banda ancha universal, servicios digitales, innovación "
+"inclusiva y política tecnológica."
 
 #. /downloadReport
 #: File: en.json
@@ -124,7 +142,10 @@ msgstr "- Ir a Github"
 msgid ""
 " - To learn more about this project and the partners, please find our "
 "information below. We welcome your thoughts and feedback."
-msgstr "- Para obtener más información sobre este proyecto y los socios, encuentre nuestra información a continuación. Agradecemos sus pensamientos y comentarios."
+msgstr ""
+"- Para obtener más información sobre este proyecto y los socios, encuentre "
+"nuestra información a continuación. Agradecemos sus pensamientos y "
+"comentarios."
 
 #. /fullAcknowledgements
 #: File: en.json
@@ -158,7 +179,24 @@ msgid ""
 "(GeeksForGeeks). E.g. GitHub A CAT (computer-assisted translation) tool "
 "“assists a human translator in the translation process” (Wikipedia). E.g. "
 "Zing"
-msgstr "- Un TMS (sistema de gestión de la traducción) “es un tipo de software para automatizar muchas partes del proceso de traducción del lenguaje humano y maximizar la eficiencia del traductor. La idea de un sistema de gestión de la traducción es automatizar todo el trabajo repetible y no esencial que puede ser realizado por software / sistemas y dejando solo el trabajo creativo de traducción y revisión para que lo realicen seres humanos ”(Wikipedia). Por ejemplo, Mojito A CMS (sistema de gestión de contenido) “es una aplicación de software que se puede utilizar para gestionar la creación y modificación de contenido digital” (Wikipedia). Un CMS permite a los administradores de contenido escribir, cargar y actualizar contenido sin necesidad de comprender los detalles técnicos de cómo se distribuye finalmente el contenido. Por ejemplo, WordPress A VCS (sistema de control de versiones) &quot;ayuda a registrar los cambios en los archivos mediante un seguimiento de las modificaciones realizadas en el código&quot; (GeeksForGeeks). Por ejemplo, GitHub Una herramienta CAT (traducción asistida por computadora) “ayuda a un traductor humano en el proceso de traducción” (Wikipedia). Por ejemplo, Zing"
+msgstr ""
+"- Un TMS (sistema de gestión de la traducción) “es un tipo de software para "
+"automatizar muchas partes del proceso de traducción del lenguaje humano y "
+"maximizar la eficiencia del traductor. La idea de un sistema de gestión de "
+"la traducción es automatizar todo el trabajo repetible y no esencial que "
+"puede ser realizado por software / sistemas y dejando solo el trabajo "
+"creativo de traducción y revisión para que lo realicen seres humanos "
+"”(Wikipedia). Por ejemplo, Mojito A CMS (sistema de gestión de contenido) "
+"“es una aplicación de software que se puede utilizar para gestionar la "
+"creación y modificación de contenido digital” (Wikipedia). Un CMS permite a "
+"los administradores de contenido escribir, cargar y actualizar contenido sin "
+"necesidad de comprender los detalles técnicos de cómo se distribuye "
+"finalmente el contenido. Por ejemplo, WordPress A VCS (sistema de control de "
+"versiones) &quot;ayuda a registrar los cambios en los archivos mediante un "
+"seguimiento de las modificaciones realizadas en el código&quot; "
+"(GeeksForGeeks). Por ejemplo, GitHub Una herramienta CAT (traducción "
+"asistida por computadora) “ayuda a un traductor humano en el proceso de "
+"traducción” (Wikipedia). Por ejemplo, Zing"
 
 #. /fullTitle
 #: File: en.json
@@ -199,7 +237,12 @@ msgid ""
 "Translation is only one of several elements of the localization process.” "
 "Translations should incorporate specific contexts and dialects based on the "
 "target audience."
-msgstr "- Según GALA, “la localización (también conocida como &#39;l10n&#39;) es el proceso de adaptar un producto o contenido a un lugar o mercado específico. La traducción es solo uno de varios elementos del proceso de localización &quot;. Las traducciones deben incorporar contextos y dialectos específicos según el público objetivo."
+msgstr ""
+"- Según GALA, “la localización (también conocida como &#39;l10n&#39;) es el "
+"proceso de adaptar un producto o contenido a un lugar o mercado específico. "
+"La traducción es solo uno de varios elementos del proceso de localización "
+"&quot;. Las traducciones deben incorporar contextos y dialectos específicos "
+"según el público objetivo."
 
 #. /menu
 #: File: en.json
@@ -219,7 +262,9 @@ msgstr "- Próximo"
 msgid ""
 " - Language access is the ability for users to access government resources "
 "and services in their preferred language."
-msgstr "- El acceso al idioma es la capacidad de los usuarios para acceder a los recursos y servicios gubernamentales en su idioma preferido."
+msgstr ""
+"- El acceso al idioma es la capacidad de los usuarios para acceder a los "
+"recursos y servicios gubernamentales en su idioma preferido."
 
 #. /obligationsAlt
 #: File: en.json
@@ -256,7 +301,14 @@ msgid ""
 "once it is translated. As we have gathered so far from conversations with "
 "the Mayor’s Office of Immigrant Affairs (MOIA), fully automated continuous "
 "localization does not yet exist in city government."
-msgstr "- La localización continua determina automáticamente la parte del contenido actualizado que necesita ser traducido, utiliza la memoria de traducción (TM) para almacenar y reutilizar el contenido previamente traducido y rechaza el contenido actualizado una vez que se traduce. Como hemos recopilado hasta ahora de las conversaciones con la Oficina de Asuntos de Inmigrantes del Alcalde (MOIA), la localización continua completamente automatizada aún no existe en el gobierno de la ciudad."
+msgstr ""
+"- La localización continua determina automáticamente la parte del contenido "
+"actualizado que necesita ser traducido, utiliza la memoria de traducción "
+"(TM) para almacenar y reutilizar el contenido previamente traducido y "
+"rechaza el contenido actualizado una vez que se traduce. Como hemos "
+"recopilado hasta ahora de las conversaciones con la Oficina de Asuntos de "
+"Inmigrantes del Alcalde (MOIA), la localización continua completamente "
+"automatizada aún no existe en el gobierno de la ciudad."
 
 #. /safeSpaceAlt
 #: File: en.json
@@ -308,7 +360,11 @@ msgid ""
 " - The NYC Mayor’s Office of the CTO (MOCTO) is developing an open-source "
 "translation pipeline that aims to streamline the process of translation "
 "management for itself and potentially other city agencies."
-msgstr "- La Oficina del CTO del Alcalde de la Ciudad de Nueva York (MOCTO) está desarrollando un canal de traducción de código abierto que tiene como objetivo agilizar el proceso de gestión de la traducción para sí mismo y potencialmente para otras agencias de la ciudad."
+msgstr ""
+"- La Oficina del CTO del Alcalde de la Ciudad de Nueva York (MOCTO) está "
+"desarrollando un canal de traducción de código abierto que tiene como "
+"objetivo agilizar el proceso de gestión de la traducción para sí mismo y "
+"potencialmente para otras agencias de la ciudad."
 
 #. /websiteSupport
 #: File: en.json
