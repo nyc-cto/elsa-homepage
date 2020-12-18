@@ -15,19 +15,19 @@ msgstr " - ABOUT"
 #: File: en.json
 #: ID: 2a022226cd44fb67f18bcdcfaefaeb73
 msgid " - "
-msgstr ""
+msgstr "-"
 
 #. /allRightsReserved
 #: File: en.json
 #: ID: a00bef183e8ec6aa42c2b6d25494c267
 msgid " - © 2020 City of New York. All Rights Reserved."
-msgstr ""
+msgstr "- © 2020 Ciudad de Nueva York. Todos los derechos reservados."
 
 #. /back
 #: File: en.json
 #: ID: b52b56efbbf360ebd5403143459ee5b6
 msgid " - Back"
-msgstr ""
+msgstr "- Atrás"
 
 #. /checkSafety
 #: File: en.json
@@ -39,32 +39,32 @@ msgid ""
 "CI/CD workflows.” It is open-source, written in Perl, and primarily a back-"
 "end tool. It is built for modularity, functioning via plugins into VCS’s and "
 "TMS’s."
-msgstr ""
+msgstr "- Serge &quot;es una solución de localización continua que le permite configurar escenarios de automatización de localización robustos en minutos e integrar procesos de localización en su desarrollo diario, creación de contenido y flujos de trabajo de CI / CD&quot;. Es de código abierto, escrito en Perl y principalmente una herramienta de back-end. Está construido para la modularidad, funciona a través de complementos en VCS y TMS."
 
 #. /checkSafetyAlt
 #: File: en.json
 #: ID: 84d074abe77d553206ab3eea51637056
 msgid " - Alt Text"
-msgstr ""
+msgstr "- Texto alternativo"
 
 #. /checkSafetyHeading
 #: File: en.json
 #: ID: 11315dfb43d1cf6998d0fef534f45949
 msgid " - What is Serge?"
-msgstr ""
+msgstr "- ¿Qué es Serge?"
 
 #. /collaboration
 #: File: en.json
 #: ID: 9e29d1bd01c7ea9096b8e3263b2a4d91
 msgid " - A collaboration of"
-msgstr ""
+msgstr "- Una colaboración de"
 
 #. /conceptsAlt
 #: File: en.json
 #: ID: ac4d0e324dbec08bf7336111492ca6bf
 msgctxt "/conceptsAlt"
 msgid " - Alt Text"
-msgstr ""
+msgstr "- Texto alternativo"
 
 #. /conceptsAndVocab
 #: File: en.json
@@ -76,31 +76,31 @@ msgid ""
 "The purpose of translation is to convey the original tone and intent of a "
 "message, taking into account cultural and regional differences between "
 "source and target languages.”"
-msgstr ""
+msgstr "- Según GALA, “la traducción es la comunicación de significado de un idioma (la fuente) a otro idioma (el destino). La traducción se refiere a la información escrita, mientras que la interpretación se refiere a la información hablada. El propósito de la traducción es transmitir el tono original y la intención de un mensaje, teniendo en cuenta las diferencias culturales y regionales entre los idiomas de origen y destino &quot;."
 
 #. /conceptsHeading
 #: File: en.json
 #: ID: 64a665ce4a18d4890b3b75670ca9a4a3
 msgid " - What is translation versus interpretation?"
-msgstr ""
+msgstr "- ¿Qué es traducción versus interpretación?"
 
 #. /contact
 #: File: en.json
 #: ID: f030522dba432846ee69d9acf04a6ed5
 msgid " - Contact"
-msgstr ""
+msgstr "- contacto"
 
 #. /contactUs
 #: File: en.json
 #: ID: 5e0cb753670c16b382b6e60e8335ddef
 msgid " - Contact us"
-msgstr ""
+msgstr "- Contáctenos"
 
 #. /cyeAbout
 #: File: en.json
 #: ID: a86143323c751f8d9028f76fff7b1ea2
 msgid " - ABOUT the Mayor's Office of the Chief Tech Officer"
-msgstr ""
+msgstr "- ACERCA de la Oficina del Director de Tecnología del Alcalde"
 
 #. /cyeDescription
 #: File: en.json
@@ -110,13 +110,13 @@ msgid ""
 "to ensure that technology is inclusive, accessible, human-centered, and "
 "works for all New Yorkers. Focus areas include universal broadband, digital "
 "services, inclusive innovation, and tech policy."
-msgstr ""
+msgstr "- MOCTO es una agencia del gobierno de la ciudad que colabora con otras agencias para garantizar que la tecnología sea inclusiva, accesible, centrada en el ser humano y funcione para todos los neoyorquinos. Las áreas de enfoque incluyen banda ancha universal, servicios digitales, innovación inclusiva y política tecnológica."
 
 #. /downloadReport
 #: File: en.json
 #: ID: eb5d9cf9e3f8c6f0c10e70d901bdb6ac
 msgid " - Go to Github"
-msgstr ""
+msgstr "- Ir a Github"
 
 #. /feedback
 #: File: en.json
@@ -124,20 +124,20 @@ msgstr ""
 msgid ""
 " - To learn more about this project and the partners, please find our "
 "information below. We welcome your thoughts and feedback."
-msgstr ""
+msgstr "- Para obtener más información sobre este proyecto y los socios, encuentre nuestra información a continuación. Agradecemos sus pensamientos y comentarios."
 
 #. /fullAcknowledgements
 #: File: en.json
 #: ID: 57792541d34f14de9a597ea8255572a0
 msgctxt "/fullAcknowledgements"
 msgid " - "
-msgstr ""
+msgstr "-"
 
 #. /fullReport
 #: File: en.json
 #: ID: 37226d50d178c43e990dd89e4db8d658
 msgid " - What is a TMS, CMS, VCS, and CAT tool?"
-msgstr ""
+msgstr "- ¿Qué es una herramienta TMS, CMS, VCS y CAT?"
 
 #. /fullReportDescription
 #: File: en.json
@@ -158,37 +158,37 @@ msgid ""
 "(GeeksForGeeks). E.g. GitHub A CAT (computer-assisted translation) tool "
 "“assists a human translator in the translation process” (Wikipedia). E.g. "
 "Zing"
-msgstr ""
+msgstr "- Un TMS (sistema de gestión de la traducción) “es un tipo de software para automatizar muchas partes del proceso de traducción del lenguaje humano y maximizar la eficiencia del traductor. La idea de un sistema de gestión de la traducción es automatizar todo el trabajo repetible y no esencial que puede ser realizado por software / sistemas y dejando solo el trabajo creativo de traducción y revisión para que lo realicen seres humanos ”(Wikipedia). Por ejemplo, Mojito A CMS (sistema de gestión de contenido) “es una aplicación de software que se puede utilizar para gestionar la creación y modificación de contenido digital” (Wikipedia). Un CMS permite a los administradores de contenido escribir, cargar y actualizar contenido sin necesidad de comprender los detalles técnicos de cómo se distribuye finalmente el contenido. Por ejemplo, WordPress A VCS (sistema de control de versiones) &quot;ayuda a registrar los cambios en los archivos mediante un seguimiento de las modificaciones realizadas en el código&quot; (GeeksForGeeks). Por ejemplo, GitHub Una herramienta CAT (traducción asistida por computadora) “ayuda a un traductor humano en el proceso de traducción” (Wikipedia). Por ejemplo, Zing"
 
 #. /fullTitle
 #: File: en.json
 #: ID: 80de7356e78796c9523efc4d3e333585
 msgid " - The Mayor's Office of the Chief Technology Officer"
-msgstr ""
+msgstr "- Oficina del Director de Tecnología del Alcalde"
 
 #. /home
 #: File: en.json
 #: ID: b88428475a2324b7f82e92476d50b4ee
 msgid " - Home"
-msgstr ""
+msgstr "- Casa"
 
 #. /inclusivityGuide
 #: File: en.json
 #: ID: 76fc18d25255a551febb9f99aeee51ee
 msgid " - Automatic Continuous Localization"
-msgstr ""
+msgstr "- Localización continua automática"
 
 #. /languages
 #: File: en.json
 #: ID: 2db555595839f79bd2a93ca468b8713f
 msgid " - languages"
-msgstr ""
+msgstr "- idiomas"
 
 #. /manualNeed
 #: File: en.json
 #: ID: b7072acefab3e55a44e27fa1c81e2fb6
 msgid " - What is localization?"
-msgstr ""
+msgstr "- ¿Qué es la localización?"
 
 #. /manualNeedDescription
 #: File: en.json
@@ -199,19 +199,19 @@ msgid ""
 "Translation is only one of several elements of the localization process.” "
 "Translations should incorporate specific contexts and dialects based on the "
 "target audience."
-msgstr ""
+msgstr "- Según GALA, “la localización (también conocida como &#39;l10n&#39;) es el proceso de adaptar un producto o contenido a un lugar o mercado específico. La traducción es solo uno de varios elementos del proceso de localización &quot;. Las traducciones deben incorporar contextos y dialectos específicos según el público objetivo."
 
 #. /menu
 #: File: en.json
 #: ID: dc0cc036dadd2855cbd1438953393adf
 msgid " - Menu"
-msgstr ""
+msgstr "- Menú"
 
 #. /next
 #: File: en.json
 #: ID: 5e7b227d788d5d1a7cd5a4901de01e4a
 msgid " - Next"
-msgstr ""
+msgstr "- Próximo"
 
 #. /obligations
 #: File: en.json
@@ -219,32 +219,32 @@ msgstr ""
 msgid ""
 " - Language access is the ability for users to access government resources "
 "and services in their preferred language."
-msgstr ""
+msgstr "- El acceso al idioma es la capacidad de los usuarios para acceder a los recursos y servicios gubernamentales en su idioma preferido."
 
 #. /obligationsAlt
 #: File: en.json
 #: ID: 03ee274b7aa4c2049165f3c7e5d015e5
 msgctxt "/obligationsAlt"
 msgid " - Alt Text"
-msgstr ""
+msgstr "- Texto alternativo"
 
 #. /obligationsHeading
 #: File: en.json
 #: ID: 325ffa8e1e826831ca4525f13ea8bced
 msgid " - What is language access?"
-msgstr ""
+msgstr "- ¿Qué es el acceso al idioma?"
 
 #. /privacyPolicy
 #: File: en.json
 #: ID: e27d649a23e46a11de9fdeceacb9a3d4
 msgid " - Privacy Policy"
-msgstr ""
+msgstr "- Política de privacidad"
 
 #. /returnToTop
 #: File: en.json
 #: ID: 9c2b37c763ef49a7a3876410aedb0c62
 msgid " - Return to top"
-msgstr ""
+msgstr "- Volver a la cima"
 
 #. /safeSpace
 #: File: en.json
@@ -256,50 +256,50 @@ msgid ""
 "once it is translated. As we have gathered so far from conversations with "
 "the Mayor’s Office of Immigrant Affairs (MOIA), fully automated continuous "
 "localization does not yet exist in city government."
-msgstr ""
+msgstr "- La localización continua determina automáticamente la parte del contenido actualizado que necesita ser traducido, utiliza la memoria de traducción (TM) para almacenar y reutilizar el contenido previamente traducido y rechaza el contenido actualizado una vez que se traduce. Como hemos recopilado hasta ahora de las conversaciones con la Oficina de Asuntos de Inmigrantes del Alcalde (MOIA), la localización continua completamente automatizada aún no existe en el gobierno de la ciudad."
 
 #. /safeSpaceAlt
 #: File: en.json
 #: ID: 761abfd6dc809dfff75b3d3a689ffaeb
 msgctxt "/safeSpaceAlt"
 msgid " - Alt Text"
-msgstr ""
+msgstr "- Texto alternativo"
 
 #. /safeSpaceHeading
 #: File: en.json
 #: ID: 6a45249d85056e8f7070d06124745595
 msgid " - What is continuous localization?"
-msgstr ""
+msgstr "- ¿Qué es la localización continua?"
 
 #. /skipContent
 #: File: en.json
 #: ID: 5c73e8466cf4916219a7d5586b7a799c
 msgid " - Skip to main content"
-msgstr ""
+msgstr "- Saltar al contenido principal"
 
 #. /termsOfUse
 #: File: en.json
 #: ID: 3b35f32360e2a32089b8d33b2879b4e8
 msgid " - Terms of Use"
-msgstr ""
+msgstr "- Términos de Uso"
 
 #. /topNav
 #: File: en.json
 #: ID: df78eb5e79f526ec69fba67bc0be2c38
 msgid " - An official website of New York City government"
-msgstr ""
+msgstr "- Un sitio web oficial del gobierno de la ciudad de Nueva York"
 
 #. /tradeMark
 #: File: en.json
 #: ID: 8b247ce0f57f0fd7245f8158e26b9a0d
 msgid " - NYC is a trademark and service mark of the City of New York."
-msgstr ""
+msgstr "- NYC es una marca comercial y de servicio de la ciudad de Nueva York."
 
 #. /unityAbout
 #: File: en.json
 #: ID: 03e8e67a6ac30e6a6e25fb1cb3aa1dd4
 msgid " - ABOUT ELSA TMS"
-msgstr ""
+msgstr "- ACERCA DE ELSA TMS"
 
 #. /unityDescription
 #: File: en.json
@@ -308,16 +308,16 @@ msgid ""
 " - The NYC Mayor’s Office of the CTO (MOCTO) is developing an open-source "
 "translation pipeline that aims to streamline the process of translation "
 "management for itself and potentially other city agencies."
-msgstr ""
+msgstr "- La Oficina del CTO del Alcalde de la Ciudad de Nueva York (MOCTO) está desarrollando un canal de traducción de código abierto que tiene como objetivo agilizar el proceso de gestión de la traducción para sí mismo y potencialmente para otras agencias de la ciudad."
 
 #. /websiteSupport
 #: File: en.json
 #: ID: 23332aae24fce126ed325a8c5039507e
 msgid " - Website created with the support of"
-msgstr ""
+msgstr "- Sitio web creado con el apoyo de"
 
 #. /workItNYC
 #: File: en.json
 #: ID: 93aaf7d0d3c09535ec23679acc81036b
 msgid " - Project ELSA"
-msgstr ""
+msgstr "- Proyecto ELSA"
