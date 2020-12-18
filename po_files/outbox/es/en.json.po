@@ -9,4 +9,4 @@ msgstr ""
 #: File: en.json
 #: ID: 193c8ca41f085ac4d00bc613975ef865
 msgid " - About"
-msgstr ""
+msgstr " - ABOUT"
