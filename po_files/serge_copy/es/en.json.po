@@ -209,13 +209,13 @@ msgstr "Localización continua automática"
 msgid "languages"
 msgstr "idiomas"
 
-#. /manualNeed
+#. /introText
 #: File: en.json
 #: ID: 133a453060041b2d954e002280486446
 msgid "What is localization?"
 msgstr "¿Qué es la localización?"
 
-#. /manualNeedDescription
+#. /introTextDescription
 #: File: en.json
 #: ID: 3f772b5fe0910ea97553f5256e0098d9
 msgid ""
@@ -334,13 +334,13 @@ msgstr "Un sitio web oficial del gobierno de la ciudad de Nueva York"
 msgid "NYC is a trademark and service mark of the City of New York."
 msgstr "NYC es una marca comercial y de servicio de la ciudad de Nueva York."
 
-#. /unityAbout
+#. /aboutText
 #: File: en.json
 #: ID: 3ea7fad3b4a038ba353e96b2a877f22b
 msgid "ABOUT ELSA TMS"
 msgstr "ACERCA DE ELSA TMS"
 
-#. /unityDescription
+#. /descriptionText
 #: File: en.json
 #: ID: 3feb4d6dbd744cebd4c00c63c8f37bf9
 msgid ""

@@ -22,12 +22,12 @@ export default function Home(props) {
       <YellowSection>
         <div className="tablet:grid-col-4">
           <Heading className="margin-top-0 tablet:margin-bottom-0">
-            {t('manualNeed')}
+            {t('introText')}
           </Heading>
         </div>
 
         <Paragraph className="tablet:grid-col-8">
-          {t('manualNeedDescription')}
+          {t('introTextDescription')}
         </Paragraph>
       </YellowSection>
 
