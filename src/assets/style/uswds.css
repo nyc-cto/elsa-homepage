@@ -158,6 +158,7 @@ Adjusted color swatches
 .usa-button {
   background-color: white !important;
   color: #042D36 !important;
+  border: 2px #042D36 solid !important;
 }
 
 .usa-button:hover {
