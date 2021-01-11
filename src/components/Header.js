@@ -41,7 +41,7 @@ export default function Header(props) {
         </div>
         <nav aria-label="Primary navigation" className="usa-nav bg-white mobile-menu">
           <div className="usa-nav__inner">
-            <button className="usa-nav__close">
+            <button className="usa-nav__close mocto-button">
               <img src={CloseImg} alt="close"/>
             </button>
             <ul className="usa-nav__primary usa-accordion">

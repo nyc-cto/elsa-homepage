@@ -41,6 +41,11 @@ Adjusted color swatches
   background-color: #7E4E96 !important;
 }
 
+.mocto-button {
+  background-color: white!important;
+  border: 2px solid #042D36!important;
+}
+
 .text-barlow-heading {
   font-family: PublicSans;
   font-style: normal;
@@ -160,7 +165,8 @@ Adjusted color swatches
 }
 
 .usa-button:active {
-  background-color: #D34200 !important;
+  background-color: #042D36 !important;
+  color: white!important;
 }
 
 .usa-prose {
