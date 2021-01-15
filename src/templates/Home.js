@@ -22,12 +22,12 @@ export default function Home(props) {
       <YellowSection>
         <div className="tablet:grid-col-4">
           <Heading className="margin-top-0 tablet:margin-bottom-0">
-            {t('manualNeed')}
+            {t('introText')}
           </Heading>
         </div>
 
         <Paragraph className="tablet:grid-col-8">
-          {t('manualNeedDescription')}
+          {t('introTextDescription')}
         </Paragraph>
       </YellowSection>
 
@@ -66,7 +66,7 @@ export default function Home(props) {
           {t('fullReportDescription')}
         </Paragraph>
         <br/>
-        <Button link="/DOH_Unity_Project_Workforce_Manual.pdf"
+        <Button link="https://github.com/nyc-cto/tms"
           onClick={()=> logEvent("Button Click", "User downloaded report")}>
             {t('downloadReport')}
         </Button>

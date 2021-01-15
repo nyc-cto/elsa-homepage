@@ -18,7 +18,7 @@ export default function GovBanner() {
       <section className="usa-banner bg-primary-darker banner-adjustment"
         aria-label="Official government website">
         <div className="usa-accordion">
-          <header className="usa-banner__header" style={{paddingBottom: 15}}>
+          <header className="usa-banner__header" style={{paddingBottom: 15, paddingTop: 0}}>
             <div className="usa-banner__inner">
               <div className="grid-col-fill tablet:grid-col-auto">
                 <p className="usa-banner__header-text text-white">

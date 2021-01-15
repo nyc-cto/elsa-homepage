@@ -11,7 +11,7 @@ export default function About(props) {
   const {t} = useTranslation();
 
   const YELLOW_SECTIONS = [
-    {heading: t('unityAbout'), text: t('unityDescription')},
+    {heading: t('aboutText'), text: t('descriptionText')},
     {heading: t('cyeAbout'), text: t('cyeDescription')},
     {heading: t('acknowledgements'), text: t('fullAcknowledgements')},
   ];
