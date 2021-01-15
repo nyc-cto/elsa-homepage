@@ -23,8 +23,8 @@
    "home" : "Casa",
    "inclusivityGuide" : "Localización continua automática",
    "languages" : "idiomas",
-   "manualNeed" : "¿Qué es la localización?",
-   "manualNeedDescription" : "Según GALA, “la localización (también conocida como &#39;l10n&#39;) es el proceso de adaptar un producto o contenido a un lugar o mercado específico. La traducción es solo uno de varios elementos del proceso de localización &quot;. Las traducciones deben incorporar contextos y dialectos específicos según el público objetivo.",
+   "introText" : "¿Qué es la localización?",
+   "introTextDescription" : "Según GALA, “la localización (también conocida como &#39;l10n&#39;) es el proceso de adaptar un producto o contenido a un lugar o mercado específico. La traducción es solo uno de varios elementos del proceso de localización &quot;. Las traducciones deben incorporar contextos y dialectos específicos según el público objetivo.",
    "menu" : "Menú",
    "next" : "próximo",
    "obligations" : "El acceso al idioma es la capacidad de los usuarios para acceder a los recursos y servicios gubernamentales en su idioma preferido.",
@@ -39,8 +39,8 @@
    "termsOfUse" : "Términos de Uso",
    "topNav" : "Un sitio web oficial del gobierno de la ciudad de Nueva York",
    "tradeMark" : "NYC es una marca comercial y de servicio de la ciudad de Nueva York.",
-   "unityAbout" : "ACERCA DE ELSA TMS",
-   "unityDescription" : "La Oficina del CTO del Alcalde de la Ciudad de Nueva York (MOCTO) está desarrollando un canal de traducción de código abierto que tiene como objetivo agilizar el proceso de gestión de la traducción para sí mismo y potencialmente para otras agencias de la ciudad.",
+   "aboutText" : "ACERCA DE ELSA TMS",
+   "descriptionText" : "La Oficina del CTO del Alcalde de la Ciudad de Nueva York (MOCTO) está desarrollando un canal de traducción de código abierto que tiene como objetivo agilizar el proceso de gestión de la traducción para sí mismo y potencialmente para otras agencias de la ciudad.",
    "websiteSupport" : "Sitio web creado con el apoyo de",
    "workItNYC" : "Proyecto ELSA"
 }
