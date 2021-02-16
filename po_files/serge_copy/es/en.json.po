@@ -7,15 +7,21 @@ msgstr ""
 
 #. /about
 #: File: en.json
-#: ID: 78e8a7f4173de7bc8efcbd3319cb492f
-msgid "About"
-msgstr "Acerca de"
+#: ID: 5a3696082f46fe04ec9ef827046c364f
+msgid "Contribute"
+msgstr "Contribuir"
+
+#. /aboutText
+#: File: en.json
+#: ID: f3368e7aabfdaad8e91ef39c7ed06e1c
+msgid "ELSA is Open Source"
+msgstr "ELSA es de código abierto"
 
 #. /allRightsReserved
 #: File: en.json
-#: ID: 22ee5b08d5c3fce9a7ebee7c4275717f
-msgid "© 2020 City of New York. All Rights Reserved."
-msgstr "© 2020 Ciudad de Nueva York. Todos los derechos reservados."
+#: ID: 87b4fb10dc6fc6bca726f0d6ec1caee0
+msgid "© 2021 City of New York. All Rights Reserved."
+msgstr "© 2021 Ciudad de Nueva York. Reservados todos los derechos."
 
 #. /back
 #: File: en.json
@@ -25,22 +31,17 @@ msgstr "atrás"
 
 #. /checkSafety
 #: File: en.json
-#: ID: 0e8cce4bc4c45f0d3f920256cc1f4066
+#: ID: 0361b8460b61aec56ba7cefab9335744
 msgid ""
-"Serge “is a continuous localization solution that allows you to configure "
-"robust localization automation scenarios in minutes, and integrate "
-"localization processes into your everyday development, content authoring and "
-"CI/CD workflows.” It is open-source, written in Perl, and primarily a back-"
-"end tool. It is built for modularity, functioning via plugins into VCS’s and "
-"TMS’s."
+"ELSA is focused on managing the changes in text and the “last mile” of "
+"getting text out of and back into documents. It can be used as a drop-in "
+"part of any workflow and can integrate with any machine translation API or "
+"human localization vendor."
 msgstr ""
-"Serge &quot;es una solución de localización continua que le permite "
-"configurar escenarios de automatización de localización robustos en minutos "
-"e integrar procesos de localización en su desarrollo diario, creación de "
-"contenido y flujos de trabajo de CI / CD&quot;. Es de código abierto, "
-"escrito en Perl y principalmente una herramienta de back-end. Está "
-"construido para la modularidad, funciona a través de complementos en VCS y "
-"TMS."
+"ELSA se enfoca en administrar los cambios en el texto y la “última milla” de "
+"sacar texto y volver a incluirlo en los documentos. Se puede utilizar como "
+"parte de cualquier flujo de trabajo y se puede integrar con cualquier API de "
+"traducción automática o proveedor de localización humana."
 
 #. /checkSafetyAlt
 #: File: en.json
@@ -50,15 +51,15 @@ msgstr "Texto alternativo"
 
 #. /checkSafetyHeading
 #: File: en.json
-#: ID: 61e832bb1602fcdaca3d23011e98917d
-msgid "What is Serge?"
-msgstr "¿Qué es Serge?"
+#: ID: 3313ffb751ca03d9608cbc9e25c5108b
+msgid "Any vendor. Any workflow"
+msgstr "Cualquier vendedor. Cualquier flujo de trabajo"
 
 #. /collaboration
 #: File: en.json
-#: ID: c4b658920c3ffa8a004c475a9cab5b5a
-msgid "A collaboration of"
-msgstr "Una colaboración de"
+#: ID: c40ad52eacaced8e6101e74c7767cd3a
+msgid "A collaboration with"
+msgstr "Una colaboración con"
 
 #. /conceptsAlt
 #: File: en.json
@@ -69,27 +70,22 @@ msgstr "Texto alternativo"
 
 #. /conceptsAndVocab
 #: File: en.json
-#: ID: d670de031a1dc16648b80866281a3515
+#: ID: 0c8d63b06cb9e7999a71c38ce10be2a7
 msgid ""
-"According to GALA, “translation is the communication of meaning from one "
-"language (the source) to another language (the target). Translation refers "
-"to written information, whereas interpretation refers to spoken information. "
-"The purpose of translation is to convey the original tone and intent of a "
-"message, taking into account cultural and regional differences between "
-"source and target languages.”"
+"ELSA plugs into any Content Management System (CMS) with a simple plugin "
+"architecture, so no matter if you are creating content in Wordpress, Google "
+"Docs, or directly in code, ELSA can keep it up to date."
 msgstr ""
-"Según GALA, “la traducción es la comunicación de significado de un idioma "
-"(la fuente) a otro idioma (el destino). La traducción se refiere a la "
-"información escrita, mientras que la interpretación se refiere a la "
-"información hablada. El propósito de la traducción es transmitir el tono "
-"original y la intención de un mensaje, teniendo en cuenta las diferencias "
-"culturales y regionales entre los idiomas de origen y destino &quot;."
+"ELSA se conecta a cualquier sistema de gestión de contenido (CMS) con una "
+"arquitectura de complemento simple, por lo que no importa si está creando "
+"contenido en Wordpress, Google Docs o directamente en código, ELSA puede "
+"mantenerlo actualizado."
 
 #. /conceptsHeading
 #: File: en.json
-#: ID: ac7c1ed698d99c9df80da39ecc5aeaae
-msgid "What is translation versus interpretation?"
-msgstr "¿Qué es traducción versus interpretación?"
+#: ID: df2cc878d77108048a300d00c4bbff9b
+msgid "Any Content Management System"
+msgstr "Cualquier sistema de gestión de contenido"
 
 #. /contact
 #: File: en.json
@@ -105,30 +101,41 @@ msgstr "Contáctenos"
 
 #. /cyeAbout
 #: File: en.json
-#: ID: 60db7b9d4fce762708cad3efe64f6662
-msgid "ABOUT the Mayor's Office of the Chief Tech Officer"
-msgstr "ACERCA de la Oficina del Director de Tecnología del Alcalde"
+#: ID: f9a1a1ea9b7ccc9dd025c2ffdfc4d78f
+msgid "Get involved"
+msgstr "Involucrarse"
 
 #. /cyeDescription
 #: File: en.json
-#: ID: 07e48ae186d48d3e3c5ff7e191c9d18a
+#: ID: 8e37105463c6a7227848969140beee49
 msgid ""
-"MOCTO is a city government agency that collaborates with other agencies to "
-"ensure that technology is inclusive, accessible, human-centered, and works "
-"for all New Yorkers. Focus areas include universal broadband, digital "
-"services, inclusive innovation, and tech policy."
+"Whether you are a developer, designer, or subject matter expert, you can "
+"help advance universal language access by getting involved. Check out the "
+"github repo for more information and the most pressing current needs."
 msgstr ""
-"MOCTO es una agencia del gobierno de la ciudad que colabora con otras "
-"agencias para garantizar que la tecnología sea inclusiva, accesible, "
-"centrada en el ser humano y funcione para todos los neoyorquinos. Las áreas "
-"de enfoque incluyen banda ancha universal, servicios digitales, innovación "
-"inclusiva y política tecnológica."
+"Ya sea que sea un desarrollador, diseñador o experto en la materia, puede "
+"ayudar a promover el acceso universal a los idiomas si participa. Consulte "
+"el repositorio de github para obtener más información y las necesidades "
+"actuales más urgentes."
+
+#. /descriptionText
+#: File: en.json
+#: ID: b92f7d395ec42c05e50d341e57808da7
+msgid ""
+"ELSA is built collaboratively and in the open by multiple stakeholders. It "
+"is provided as-is, but if you are a government entity please reach out and "
+"we would be happy to discuss the technical needs of ELSA."
+msgstr ""
+"ELSA se construye de manera colaborativa y abierta por múltiples partes "
+"interesadas. Se proporciona tal cual, pero si usted es una entidad "
+"gubernamental, comuníquese con nosotros y estaremos encantados de analizar "
+"las necesidades técnicas de ELSA."
 
 #. /downloadReport
 #: File: en.json
-#: ID: b903584a5f6c28335c58e195b39d69be
-msgid "Go to Github"
-msgstr "Ir a Github"
+#: ID: 14a4fef26fda8589f3bbdd8fb74bf1d9
+msgid "Get it from Github"
+msgstr "Consíguelo de Github"
 
 #. /feedback
 #: File: en.json
@@ -143,53 +150,37 @@ msgstr ""
 
 #. /fullReport
 #: File: en.json
-#: ID: 7c3e9a25aa6b89ec9329bd8090271e23
-msgid "What is a TMS, CMS, VCS, and CAT tool?"
-msgstr "¿Qué es una herramienta TMS, CMS, VCS y CAT?"
+#: ID: 9e3453ac422b5c7b3244bb80fc6923a0
+msgid "Status: Active development"
+msgstr "Estado: desarrollo activo"
 
 #. /fullReportDescription
 #: File: en.json
-#: ID: 31108997851dcfb7067c2cef106fa591
+#: ID: e5ed89557b7afb110cfd0340d058773e
 msgid ""
-"A TMS (translation management system) “is a type of software for automating "
-"many parts of the human language translation process and maximizing "
-"translator efficiency. The idea of a translation management system is to "
-"automate all repeatable and non-essential work that can be done by "
-"software/systems and leaving only the creative work of translation and "
-"review to be done by human beings” (Wikipedia). E.g. Mojito A CMS (content "
-"management system) “is a software application that can be used to manage the "
-"creation and modification of digital content” (Wikipedia). A CMS allows "
-"content managers to write, upload, and update content without needing to "
-"understand the technical details of how the content is eventually "
-"distributed. E.g. WordPress A VCS (version control system) “helps record "
-"changes to files by keeping a track of modifications done to the code” "
-"(GeeksForGeeks). E.g. GitHub A CAT (computer-assisted translation) tool "
-"“assists a human translator in the translation process” (Wikipedia). E.g. "
-"Zing"
+"ELSA is an Open Source project in active development by the NYC Mayor’s "
+"Office of the Chief Technology Officer and the United States Digital "
+"Response, and advised by the NYC Mayor’s Office of Immigrant Affairs. It is "
+"a partnership that grew out of the COVID-19 pandemic which highlighted the "
+"level of effort, and tangible value, of having rapidly evolving public "
+"safety information stay in sync across multiple languages. If you would like "
+"to use ELSA or support its development, please download the code or get in "
+"touch with us"
 msgstr ""
-"Un TMS (sistema de gestión de traducción) “es un tipo de software para "
-"automatizar muchas partes del proceso de traducción del lenguaje humano y "
-"maximizar la eficiencia del traductor. La idea de un sistema de gestión de "
-"la traducción es automatizar todo el trabajo repetible y no esencial que "
-"puede ser realizado por software / sistemas y dejando solo el trabajo "
-"creativo de traducción y revisión para que lo realicen seres humanos "
-"”(Wikipedia). Por ejemplo, Mojito A CMS (sistema de gestión de contenido) "
-"“es una aplicación de software que se puede utilizar para gestionar la "
-"creación y modificación de contenido digital” (Wikipedia). Un CMS permite a "
-"los administradores de contenido escribir, cargar y actualizar contenido sin "
-"necesidad de comprender los detalles técnicos de cómo se distribuye "
-"finalmente el contenido. Por ejemplo, WordPress A VCS (sistema de control de "
-"versiones) “ayuda a registrar los cambios en los archivos manteniendo un "
-"registro de las modificaciones realizadas en el código” (GeeksForGeeks). Por "
-"ejemplo, GitHub Una herramienta CAT (traducción asistida por computadora) "
-"“ayuda a un traductor humano en el proceso de traducción” (Wikipedia). Por "
-"ejemplo, Zing"
+"ELSA es un proyecto de código abierto en desarrollo activo por la Oficina "
+"del Director de Tecnología del Alcalde de Nueva York y la Respuesta Digital "
+"de los Estados Unidos, y asesorado por la Oficina de Asuntos de Inmigrantes "
+"del Alcalde de la ciudad de Nueva York. Es una asociación que surgió de la "
+"pandemia de COVID-19 que destacó el nivel de esfuerzo y el valor tangible de "
+"tener información de seguridad pública en rápida evolución sincronizada en "
+"varios idiomas. Si desea utilizar ELSA o apoyar su desarrollo, descargue el "
+"código o póngase en contacto con nosotros"
 
 #. /fullTitle
 #: File: en.json
-#: ID: 6431b354307b3a9f994850ce47991781
-msgid "The Mayor's Office of the Chief Technology Officer"
-msgstr "Oficina del Director de Tecnología del Alcalde"
+#: ID: 9a65b72922ac5ac7e39f62b0471d98fd
+msgid "Project ELSA"
+msgstr "Proyecto ELSA"
 
 #. /home
 #: File: en.json
@@ -197,39 +188,33 @@ msgstr "Oficina del Director de Tecnología del Alcalde"
 msgid "Home"
 msgstr "Casa"
 
-#. /inclusivityGuide
+#. /introText
 #: File: en.json
-#: ID: 117d5357e22293f9e54a4041bedd9e8f
-msgid "Automatic Continuous Localization"
-msgstr "Localización continua automática"
+#: ID: 1c5f182a9ef8cac16911b785d6d7c62c
+msgid "What is ELSA?"
+msgstr "¿Qué es ELSA?"
+
+#. /introTextDescription
+#: File: en.json
+#: ID: a8362ac34180d2337c4f28e34898341c
+msgid ""
+"Easy Localization System Access (ELSA) is an Open Source continuous "
+"translation and localization system that ensures all content is "
+"automatically and continuously kept up to date in the 11 languages most "
+"commonly spoken by New Yorkers, using a combination of Neural Machine "
+"Translation (NMT) and human Localization vendors."
+msgstr ""
+"Easy Localization System Access (ELSA) es un sistema de traducción y "
+"localización continua de código abierto que garantiza que todo el contenido "
+"se mantenga actualizado de forma automática y continua en los 11 idiomas más "
+"hablados por los neoyorquinos, utilizando una combinación de traducción "
+"automática neuronal (NMT) y proveedores de localización humana."
 
 #. /languages
 #: File: en.json
 #: ID: dced3fd661aab555e3408baa2a859b81
 msgid "languages"
 msgstr "idiomas"
-
-#. /introText
-#: File: en.json
-#: ID: 133a453060041b2d954e002280486446
-msgid "What is localization?"
-msgstr "¿Qué es la localización?"
-
-#. /introTextDescription
-#: File: en.json
-#: ID: 3f772b5fe0910ea97553f5256e0098d9
-msgid ""
-"According to GALA, “localization (also referred to as ‘l10n’) is the process "
-"of adapting a product or content to a specific locale or market. Translation "
-"is only one of several elements of the localization process.” Translations "
-"should incorporate specific contexts and dialects based on the target "
-"audience."
-msgstr ""
-"Según GALA, “la localización (también conocida como &#39;l10n&#39;) es el "
-"proceso de adaptar un producto o contenido a un lugar o mercado específico. "
-"La traducción es solo uno de varios elementos del proceso de localización "
-"&quot;. Las traducciones deben incorporar contextos y dialectos específicos "
-"según el público objetivo."
 
 #. /menu
 #: File: en.json
@@ -245,13 +230,16 @@ msgstr "próximo"
 
 #. /obligations
 #: File: en.json
-#: ID: 4ed2f699d2d1e3a70581847ad0298420
+#: ID: fffb3bb808c4ec32def7cabe45ff5eac
 msgid ""
-"Language access is the ability for users to access government resources and "
-"services in their preferred language."
+"ELSA is designed for ‘Continuous Localization’ which means that any time "
+"content is changed in the source language, the changes are automatically "
+"sent for translation and localization without the need for any extra steps."
 msgstr ""
-"El acceso al idioma es la capacidad de los usuarios para acceder a los "
-"recursos y servicios gubernamentales en su idioma preferido."
+"ELSA está diseñado para la &#39;localización continua&#39;, lo que significa "
+"que cada vez que se cambia el contenido en el idioma de origen, los cambios "
+"se envían automáticamente para su traducción y localización sin necesidad de "
+"pasos adicionales."
 
 #. /obligationsAlt
 #: File: en.json
@@ -262,9 +250,9 @@ msgstr "Texto alternativo"
 
 #. /obligationsHeading
 #: File: en.json
-#: ID: 6d5f7dd5ed1ae2ec3a08a5e5682bab3e
-msgid "What is language access?"
-msgstr "¿Qué es el acceso al idioma?"
+#: ID: 117d5357e22293f9e54a4041bedd9e8f
+msgid "Automatic Continuous Localization"
+msgstr "Localización continua automática"
 
 #. /privacyPolicy
 #: File: en.json
@@ -280,22 +268,17 @@ msgstr "Volver a la cima"
 
 #. /safeSpace
 #: File: en.json
-#: ID: 9f7f726e3b26f4f923ff1b41c56a64f5
+#: ID: 6231238c6d9bd994b3885d2863858757
 msgid ""
-"Continuous localization automatically determines the portion of updated "
-"content that needs to be translated, uses translation memory (TM) to store "
-"and reuse previously translated content, and pushes back updated content "
-"once it is translated. As we have gathered so far from conversations with "
-"the Mayor’s Office of Immigrant Affairs (MOIA), fully automated continuous "
-"localization does not yet exist in city government."
+"ELSA tracks the changes between two versions and translates only the minimal "
+"amount to save money and time. The changes are then automatically inserted "
+"into the correct location in the larger document, reducing errors and "
+"getting reliable content out to constituents."
 msgstr ""
-"La localización continua determina automáticamente la parte del contenido "
-"actualizado que debe traducirse, utiliza la memoria de traducción (TM) para "
-"almacenar y reutilizar el contenido previamente traducido y rechaza el "
-"contenido actualizado una vez que se traduce. Como hemos recopilado hasta "
-"ahora de las conversaciones con la Oficina de Asuntos de Inmigrantes del "
-"Alcalde (MOIA), la localización continua completamente automatizada aún no "
-"existe en el gobierno de la ciudad."
+"ELSA rastrea los cambios entre dos versiones y traduce solo la cantidad "
+"mínima para ahorrar dinero y tiempo. Luego, los cambios se insertan "
+"automáticamente en la ubicación correcta en el documento más grande, lo que "
+"reduce los errores y brinda contenido confiable a los constituyentes."
 
 #. /safeSpaceAlt
 #: File: en.json
@@ -306,9 +289,9 @@ msgstr "Texto alternativo"
 
 #. /safeSpaceHeading
 #: File: en.json
-#: ID: f3c9cbad367afc8da837464be5a351f9
-msgid "What is continuous localization?"
-msgstr "¿Qué es la localización continua?"
+#: ID: ae16ba0ce32e026e5c2fab3eba71e7ab
+msgid "Intelligent"
+msgstr "Inteligente"
 
 #. /skipContent
 #: File: en.json
@@ -334,25 +317,6 @@ msgstr "Un sitio web oficial del gobierno de la ciudad de Nueva York"
 msgid "NYC is a trademark and service mark of the City of New York."
 msgstr "NYC es una marca comercial y de servicio de la ciudad de Nueva York."
 
-#. /aboutText
-#: File: en.json
-#: ID: 3ea7fad3b4a038ba353e96b2a877f22b
-msgid "ABOUT ELSA TMS"
-msgstr "ACERCA DE ELSA TMS"
-
-#. /descriptionText
-#: File: en.json
-#: ID: 3feb4d6dbd744cebd4c00c63c8f37bf9
-msgid ""
-"The NYC Mayor’s Office of the CTO (MOCTO) is developing an open-source "
-"translation pipeline that aims to streamline the process of translation "
-"management for itself and potentially other city agencies."
-msgstr ""
-"La Oficina del CTO del Alcalde de la Ciudad de Nueva York (MOCTO) está "
-"desarrollando un canal de traducción de código abierto que tiene como "
-"objetivo agilizar el proceso de gestión de la traducción para sí mismo y "
-"potencialmente para otras agencias de la ciudad."
-
 #. /websiteSupport
 #: File: en.json
 #: ID: ba62c6122bf5e4bc5b846df96072047a
@@ -361,6 +325,8 @@ msgstr "Sitio web creado con el apoyo de"
 
 #. /workItNYC
 #: File: en.json
-#: ID: 9a65b72922ac5ac7e39f62b0471d98fd
-msgid "Project ELSA"
-msgstr "Proyecto ELSA"
+#: ID: 13345237dee56a58f8691baf9329bcb6
+#, fuzzy
+msgctxt "/workItNYC"
+msgid "Automatic Continuous Localization"
+msgstr "Localización continua automática"
