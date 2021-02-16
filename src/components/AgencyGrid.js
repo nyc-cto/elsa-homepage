@@ -1,7 +1,5 @@
 import React from 'react';
 
-import UnityLogo from '../assets/img/nyc_unity_logo.png';
-import CYELogo from '../assets/img/NYCYE.png';
 import MOIALogo from '../assets/img/moia-logo.png';
 import MOCTOLogo from '../assets/img/MOCTO.png';
 

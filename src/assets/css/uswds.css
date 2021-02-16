@@ -77,13 +77,13 @@
   background-color: #D93778;
 }
 
-.bg-unity-about {
+/* .bg-unity-about {
   background-image: url("../img/_A3A3659_CMYK 1.png") !important;
 }
 
 .bg-unity-contact {
   background-image: url("../img/_A3A3388_CMYK 1.png") !important;
-}
+} */
 
 .img-circular {
   border-radius: 50%;
@@ -7717,7 +7717,7 @@ button.usa-combo-box__clear-input:focus {
   line-height: 1.6;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  background-image: url("../img/hero.png");
+  /* background-image: url("../img/hero.png"); */
   background-position: center;
   background-size: cover;
   color: white;

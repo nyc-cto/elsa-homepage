@@ -5,7 +5,7 @@ import {YellowSection, Paragraph, Heading} from '../components';
 
 import {useTranslation} from 'react-i18next';
 
-import AboutImg from '../assets/img/_A3A3659_CMYK 1.png';
+import AboutImg from '../assets/img/heroimage_contribute_1.png';
 
 export default function About(props) {
   const {t} = useTranslation();
