@@ -3,7 +3,7 @@ import React from 'react';
 import PageTemplate from './PageTemplate';
 import {BlueSection, Heading, Paragraph} from '../components';
 
-import ContactImg from '../assets/img/_A3A3388_CMYK 1.png';
+import ContactImg from '../assets/img/heroimage_contact_1.png';
 
 import {useTranslation} from 'react-i18next';
 

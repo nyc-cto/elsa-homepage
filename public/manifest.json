@@ -1,22 +1,12 @@
 {
-  "short_name": "NYC Unity Project",
-  "name": "NYC Unity Project Guide to LGBTQ+ Workplace Inclusivity",
-  "description": "A guide to LGBTQ+ workplace inclusivity in New York, created by the NYC Unity Project.",
+  "short_name": "ELSA",
+  "name": "Easy Localization System Access (ELSA). A Continuous Localization tool",
+  "description": "A Continuous Localization tool proof of concept built by the NYC CTO and NYC[x] Innovation Fellows",
   "icons": [
     {
-      "src": "unity_favicon1.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
