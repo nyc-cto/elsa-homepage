@@ -112,7 +112,7 @@ msgid ""
 "Whether you are a developer, designer, or subject matter expert, you can "
 "help advance universal language access by getting involved. Check out the "
 "github repo for more information and the most pressing current needs."
-msgstr ""
+msgstr "Ya sea que sea un desarrollador, diseñador o experto en la materia, puede ayudar a promover el acceso universal a los idiomas si participa. Consulte el repositorio de github para obtener más información y las necesidades actuales más urgentes."
 
 #. /descriptionText
 #: File: en.json
@@ -199,7 +199,7 @@ msgid ""
 "automatically and continuously kept up to date in the 11 languages most "
 "commonly spoken by New Yorkers, using a combination of Neural Machine "
 "Translation (NMT) and human Localization vendors."
-msgstr ""
+msgstr "Easy Localization System Access (ELSA) es un sistema de traducción y localización continua de código abierto que garantiza que todo el contenido se mantenga actualizado de forma automática y continua en los 11 idiomas más hablados por los neoyorquinos, utilizando una combinación de traducción automática neuronal (NMT) y proveedores de localización humana."
 
 #. /languages
 #: File: en.json
