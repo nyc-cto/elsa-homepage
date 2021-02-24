@@ -8,7 +8,7 @@ export default function FooterNav(props) {
 
   const FOOTER_LINKS = [
     {link: '/', label: t('home')},
-    {link: '/about', label: t('about')},
+    {link: '/contribute', label: t('about')},
     {link: '/contact', label: t('contact')},
     {link: 'https://www1.nyc.gov/home/privacy-policy.page', label: t('privacyPolicy')},
     {link: 'https://www1.nyc.gov/home/terms-of-use.page', label: t('termsOfUse')},

@@ -11,7 +11,7 @@ export default function Header(props) {
 
   const NAV_LINKS = [
     {link: '/', label: t('home')},
-    {link: '/about', label: t('about')},
+    {link: '/contribute', label: t('about')},
     {link: '/contact', label: t('contact')},
   ];
 

@@ -13,9 +13,9 @@ export default function AgencyGrid(props) {
       <div className="grid-container bg-base-dark text-white">
         <div className="grid-row grid-gap">
           <div className="agency-grid footer-text grid-row grid-gap" style={{"align-items": "flex-start"}}>
-            <a className="mobile-lg:grid-col-4 desktop:grid-col-8"
+            <a className="mobile-lg:grid-col-5 desktop:grid-col-8"
               href="http://nyc.gov/cto" style={{marginTop: 20}}>
-              <a href="http://nyc.gov/cto"><img src={MOCTOLogo} style={{maxWidth: 300}} alt=""/></a>
+              <a href="http://nyc.gov/cto"><img src={MOCTOLogo} style={{width: "100%", maxWidth: 315}} alt=""/></a>
             </a>
 
             <div className=" mobile-lg:grid-col-4 desktop:grid-col-4">
@@ -35,11 +35,11 @@ export default function AgencyGrid(props) {
               <p style={{whiteSpace: 'nowrap'}}>{t('websiteSupport')}</p>
             </div> */}
           </div>
-          <p className="footer-text">
+          <div className="footer-text grid-col-12 margin-top-2">
             {t('allRightsReserved')}
             <br/>
             {t('tradeMark')}
-          </p>
+          </div>
         </div>
       </div>
     </div>
