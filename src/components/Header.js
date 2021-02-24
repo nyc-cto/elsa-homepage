@@ -4,7 +4,7 @@ import {useTranslation} from 'react-i18next';
 
 import NavLink from './NavLink';
 
-import CloseImg from '../assets/img/close-white.svg';
+import CloseImg from '../assets/img/close.svg';
 
 export default function Header(props) {
   const {t} = useTranslation();
@@ -39,7 +39,7 @@ export default function Header(props) {
           </div>
           <button className="usa-menu-btn">{t('menu')}</button>
         </div>
-        <nav aria-label="Primary navigation" className="usa-nav bg-white mobile-menu">
+        <nav aria-label="Primary navigation" className="usa-nav bg-white">
           <div className="usa-nav__inner">
             <button className="usa-nav__close mocto-button">
               <img src={CloseImg} alt="close"/>
