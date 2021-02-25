@@ -3,7 +3,6 @@ import React from 'react';
 import { GovBanner, Header, Hero, Footer } from '../components';
 
 export default function PageTemplate(props) {
-    console.log(props.page)
     return (
         <div>
             <GovBanner/>
