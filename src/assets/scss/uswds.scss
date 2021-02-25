@@ -14,6 +14,9 @@ $unity-blue-adj: #0BB7C2;
 $unity-orange-active: #D34200;
 $unity-yellow: #FAE64C;
 $unity-purple: #7E4E96;
+$cto-pop-2: #E1004B;
+$cto-pop-2-hover: #720034;
+
 
 // Setting up the Barlow Condensed font 
 $theme-typeface-tokens: (
@@ -179,6 +182,7 @@ $theme-font-type-sans: "public-sans";
 .usa-button {
     background-color: white !important;
     color: $theme-color-primary-darker!important;
+    border: 2px solid #042d36!important;
 }
 
 .usa-button:hover {
@@ -186,7 +190,8 @@ $theme-font-type-sans: "public-sans";
 }
 
 .usa-button:active {
-    background-color: $unity-orange-active !important;
+    background-color: $theme-color-primary-darker !important;
+    color: white !important;
 }
 
 .usa-prose {
@@ -194,11 +199,15 @@ $theme-font-type-sans: "public-sans";
 }
 
 .usa-menu-btn {
-    background-color: $unity-orange-active !important;
+    background-color: $cto-pop-2 !important;
 }
 
 .usa-menu-btn:hover {
-    background-color: $unity-orange-active !important;
+    background-color: $cto-pop-2-hover !important;
+}
+
+.usa-nav__primary .usa-current {
+   color: $theme-color-primary-darker !important;
 }
 
 @media (max-width: 370px) {
@@ -210,7 +219,7 @@ $theme-font-type-sans: "public-sans";
 @media (min-width: 910px)
 {
     .usa-nav__link::after {
-        background-color: $theme-color-primary-darker !important;
+        background-color: $cto-pop-2 !important;
     }
 
     .usa-nav__link:hover {
@@ -224,15 +233,16 @@ $theme-font-type-sans: "public-sans";
 
 @media (max-width: 910px) {
     .mobile-menu {
-        background-color: $unity-orange-active !important;
+        background-color: white !important;
     }
 
     .usa-nav__link {
-        color: white !important;
+        color: $theme-color-primary-darker !important;
     }
 
     .usa-nav__link:hover {
-        color: $unity-orange-active !important;
+        // color: $cto-pop-2 !important;
+        font-weight: bold;
     }
     
     .usa-nav__primary-item {
@@ -240,11 +250,12 @@ $theme-font-type-sans: "public-sans";
     }
 
     .usa-nav__primary .usa-current::after {
-        background-color: $unity-orange-adj !important;
+        background-color: $cto-pop-2 !important;
     }
 
     .usa-nav__primary-item:hover {
-        color: $unity-orange-adj !important;
+        // color: $cto-pop-2 !important;
+        font-weight: bold;
     }
 
     .usa-menu-btn {

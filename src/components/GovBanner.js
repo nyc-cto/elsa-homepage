@@ -25,7 +25,7 @@ export default function GovBanner() {
                   <a href="https://www1.nyc.gov/" className="usa-banner__nyc-logo">
                     <img src={NYC} alt="NYC City Logo" style={{paddingRight: 28}}/>
                   </a> 
-                  {t('topNav')}
+                  <span className="display-none desktop:display-inline">{t('topNav')}</span>
                 </p>
               </div>
               <div className='grid-col-fill'></div>

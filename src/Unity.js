@@ -24,7 +24,7 @@ export default (props) => (
         )}
       />
 
-      <Route path="/about" exact
+      <Route path="/contribute" exact
         render={(props) => (
           <About/>
         )}

@@ -6,10 +6,10 @@ import {YellowSection, Grid, BlueSection,
   Button, Heading, Paragraph, GridSquare} from '../components';
 
 import HomeImg from '../assets/img/heroimage_home_1.png';
-import CircleImg1 from '../assets/img/icon_content.png';
-import CircleImg2 from '../assets/img/icon_continuous.png';
-import CircleImg3 from '../assets/img/icon_intelligent.png';
-import CircleImg4 from '../assets/img/icon_workflow.png';
+import CircleImg1 from '../assets/img/content.png';
+import CircleImg2 from '../assets/img/continuous.png';
+import CircleImg3 from '../assets/img/intelligent.png';
+import CircleImg4 from '../assets/img/workflow.png';
 
 import {useTranslation} from 'react-i18next';
 
